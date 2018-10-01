@@ -3,6 +3,7 @@
 <html lang="en" xlmns:th="http://www.w3.org/1000/xhtml">
 <head th:replace="common/header :: common-header"/>
 
+</head>
 
 <body>
 	<div th:replace="common/header :: navbar"/>
