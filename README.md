@@ -4,5 +4,5 @@
 <br>
 <br>
 
-Software used for making this project:
-1. Spring ToolSuite4
+<i>Software used for making this project:</i>
+* <b>Spring ToolSuite4</b>
