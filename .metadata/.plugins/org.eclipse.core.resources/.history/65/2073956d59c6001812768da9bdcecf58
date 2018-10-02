@@ -7,7 +7,7 @@
 	<div th:replace="common/header :: navbar" />
 
 	<div class="container">
-		<div class="row" style="margin-bottom: -60px;">
+		<div class="row" style="margin-bottom: -70px;">
 			<div class="col-xs-8">
 				<h2 class="section-headline">
 					<span>User Account</span>
