@@ -1,0 +1,15 @@
+package com.bookstore.domain;
+
+public class User {
+
+	private Long id;
+	private String userName;
+	private String firstName;
+	private String lastName;
+	
+	private String email;
+	private String password;
+	private String phone;
+	private boolean enabled=true;
+	
+}
