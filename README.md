@@ -4,5 +4,7 @@
 <br>
 <br>
 
-<i>Software used for making this project:</i>
-* <b>Spring ToolSuite4</b>
+<b>Software used for making this project:</b>
+* <i><b>Spring ToolSuite4</b></i>
+* <i><b>Hibernate</b></i><i> (JBOSS Tools)</i>
+* <i><b>MySQL</b></i>
