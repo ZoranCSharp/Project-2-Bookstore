@@ -1,0 +1,16 @@
+package com.bookstore.utility;
+
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Component;
+
+@Component
+public class SecurityUtility {
+
+	private static final String SALT = "salt"; //Salt should be protected caefully
+	
+	public static BCryptPasswordEncoder passwordEncoder() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
