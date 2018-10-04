@@ -1,0 +1,28 @@
+package com.bookstore.service;
+
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.bookstore.domain.User;
+import com.bookstore.domain.security.PasswordResetToken;
+import com.bookstore.repository.UserRepository;
+
+public interface UserService {
+	
+	@Autowired
+	private UserRepository userRepository;
+	
+	PasswordResetToken getPasswordResetToken(final String token);
+	
+	void createPasswordResetTokenForUser(final User user, final String token);
+	
+	@Override
+	User findByUsername(String username) {
+		
+		return userRepository.findByUsername(username);
+	}
+	
+	
+	User findByEmail(String email);
+}

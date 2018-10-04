@@ -30,17 +30,5 @@ public class UserServiceImpl implements UserService{
 		final PasswordResetToken myToken = new PasswordResetToken(token, user);
 		passwordResetTokenRepository.save(myToken);
 	}
-	
-	
-	@Override
-	public User findByUsername(String username) {
-		
-		return userRepository.findByUsername(username);
-	}
-	
-	
-	public User findByEmail(String email){
-	
-		return userRepository.findByEmail(email);
-	}
+
 }

@@ -52,12 +52,12 @@ public class HomeController {
 		
 		HttpServletRequest request,
 		@ModelAttribute("email") String userEmail,
-		@ModelAttribute("username") String username,
+		@ModelAttribute("username") String userName,
 		Model model) throws Exception{
 			
 			model.addAttribute("classicActiveNewAccount", true);
-			model.addAttribute("email", userEmail);
-			model.addAttribute("username", username);
+			model.addAttribute("email",userEmail);
+			model.addAttribute("username", userName);
 			
 			if(userService.findByUsername(username) !=null) {
 				
@@ -65,11 +65,6 @@ public class HomeController {
 				
 				return "myAccount";
 			}
-			if(userService.findByEmail(userEmail) !=null) {
-				
-				model.addAttribute("email", true);
-				
-				return "myAccount";
 		}
 
 	
