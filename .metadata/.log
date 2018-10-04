@@ -8133,3 +8133,2227 @@ java.lang.IllegalArgumentException: org.jboss.tools.common.quickfix.MarkerAnnota
 			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
 		ResourceDelta(/Bookstore/src)[*]
 		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:40:27.377
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.repository[*]: {CHILDREN}
+				[Working copy] PasswordResetTokenRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:40:31.486
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.repository[*]: {CHILDREN}
+				PasswordResetTokenRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:41:17.313
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:44:01.078
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:44:01.349
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:44:50.688
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:44:50.970
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:45:05.042
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:45:05.247
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:50:01.622
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:50:10.861
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:50:11.557
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | RESOLVED CLASSPATH CHANGED}
+		C:\Users\ROBOTECH\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-jdbc\5.0.9.RELEASE\spring-jdbc-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-tx\5.0.9.RELEASE\spring-tx-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.0.5.RELEASE\spring-boot-starter-data-jpa-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.0.5.RELEASE\spring-boot-starter-aop-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\aspectj\aspectjweaver\1.8.13\aspectjweaver-1.8.13.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\hibernate\hibernate-core\5.2.17.Final\hibernate-core-5.2.17.Final.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.2.Final\hibernate-jpa-2.1-api-1.0.2.Final.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\data\spring-data-jpa\2.0.10.RELEASE\spring-data-jpa-2.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\data\spring-data-commons\2.0.10.RELEASE\spring-data-commons-2.0.10.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-orm\5.0.9.RELEASE\spring-orm-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-aspects\5.0.9.RELEASE\spring-aspects-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\mysql\mysql-connector-java\5.1.47\mysql-connector-java-5.1.47.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-security\2.0.5.RELEASE\spring-boot-starter-security-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-aop\5.0.9.RELEASE\spring-aop-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\security\spring-security-config\5.0.8.RELEASE\spring-security-config-5.0.8.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\security\spring-security-core\5.0.8.RELEASE\spring-security-core-5.0.8.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\security\spring-security-web\5.0.8.RELEASE\spring-security-web-5.0.8.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\2.0.5.RELEASE\spring-boot-starter-thymeleaf-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\thymeleaf\thymeleaf-spring5\3.0.9.RELEASE\thymeleaf-spring5-3.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\thymeleaf\thymeleaf\3.0.9.RELEASE\thymeleaf-3.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\attoparser\attoparser\2.0.4.RELEASE\attoparser-2.0.4.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\unbescape\unbescape\1.1.5.RELEASE\unbescape-1.1.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-java8time\3.0.1.RELEASE\thymeleaf-extras-java8time-3.0.1.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.0.5.RELEASE\spring-boot-starter-test-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-test\2.0.5.RELEASE\spring-boot-test-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.5.RELEASE\spring-boot-test-autoconfigure-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\junit\junit\4.12\junit-4.12.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\mockito\mockito-core\2.15.0\mockito-core-2.15.0.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-core\5.0.9.RELEASE\spring-core-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-jcl\5.0.9.RELEASE\spring-jcl-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-test\5.0.9.RELEASE\spring-test-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar[*]: {REORDERED}
+		target/generated-sources/annotations[*]: {REORDERED}
+		target/generated-test-sources/test-annotations[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-springsecurity4\3.0.2.RELEASE\thymeleaf-extras-springsecurity4-3.0.2.RELEASE.jar[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:50:11.564
+!MESSAGE Preparing classpath changed notification Bookstore
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:50:11.574
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:50:11.593
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:50:11.602
+!MESSAGE executing callback sts4.classpath.KoPyPSfG Bookstore false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:50:12.398
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:50:12.481
+!MESSAGE executing callback sts4.classpath.KoPyPSfG SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:50:13.681
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:50:13.878
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | RESOLVED CLASSPATH CHANGED}
+		C:\Users\ROBOTECH\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-springsecurity4\3.0.2.RELEASE\thymeleaf-extras-springsecurity4-3.0.2.RELEASE.jar[*]: {SOURCE ATTACHED}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:50:13.885
+!MESSAGE Preparing classpath changed notification Bookstore
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:50:13.893
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:50:13.910
+!MESSAGE classpath=109 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:50:13.917
+!MESSAGE executing callback sts4.classpath.KoPyPSfG Bookstore false 109
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:50:13.949
+!MESSAGE executing callback sts4.classpath.KoPyPSfG SUCCESS [done]
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:50:46.940
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:50:48.035
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:50:48.660
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:50:49.883
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:50:51.754
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:50:53.826
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:50:54.843
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:50:55.996
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:50:56.641
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:51:03.290
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:51:05.914
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:51:07.418
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:51:08.586
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:51:09.241
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:51:20.541
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:51:20.757
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:51:31.019
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:51:31.240
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:51:31.460
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:00.540
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:01.210
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:03.867
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:05.737
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:06.267
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:08.654
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:10.587
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:13.171
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:15.755
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:24.244
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:27.523
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:39.538
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:40.586
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:41.409
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:43.618
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:46.178
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:47.906
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:49.916
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:51.571
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:52.083
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:53.690
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:56.219
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:52:57.842
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:53:05.971
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:53:07.122
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:53:09.059
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:53:11.284
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:53:11.500
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:53:20.963
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:53:21.239
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:53:21.438
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:53:37.811
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:53:38.539
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:53:38.756
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:53:50.517
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:53:51.851
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:53:54.891
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:53:55.834
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:53:56.819
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:53:57.828
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:54:00.587
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:54:01.216
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:54:01.998
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:54:02.221
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:54:58.220
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.repository[*]: {CHILDREN}
+				[Working copy] PasswordResetTokenRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:55:27.101
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:55:35.295
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				PasswordResetToken.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-04 23:55:37.073
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.repository[*]: {CHILDREN}
+				PasswordResetTokenRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-04 23:55:37.118
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
