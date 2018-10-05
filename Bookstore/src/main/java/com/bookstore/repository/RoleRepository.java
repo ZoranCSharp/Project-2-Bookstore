@@ -6,5 +6,5 @@ import com.bookstore.domain.security.Role;
 
 public interface RoleRepository extends  CrudRepository<Role, Long>{
 
-	Role fidByName(String name);
+	Role findByName(String name);
 }

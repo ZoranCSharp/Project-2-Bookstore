@@ -3129,3 +3129,2884 @@ org.eclipse.jface.text.BadPartitioningException
 	Bookstore[*]: {CONTENT}
 		ResourceDelta(/Bookstore/src)[*]
 		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:04:45.871
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.controller[*]: {CHILDREN}
+				HomeController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:04:46.008
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				UserServiceImpl.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:04:46.082
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.repository[*]: {CHILDREN}
+				RoleRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:04:46.102
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service[*]: {CHILDREN}
+				UserService.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:04:46.121
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.utility[*]: {CHILDREN}
+				MailConstructor.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:04:46.177
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore[*]: {CHILDREN}
+				BookstoreApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:04:46.186
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KoPyPSfG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:04:46.191
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.KoPyPSfG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:04:46.196
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:04:46.202
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.KoPyPSfG => OK
+!SESSION 2018-10-05 02:07:20.479 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2018-10-05 02:07:33.758
+!MESSAGE /resources/css/dark.css
+!STACK 0
+java.io.FileNotFoundException: /resources/css/dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:54)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:172)
+	at java.net.URL.openConnection(Unknown Source)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:280)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:280)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:451)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:419)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.restore(ThemeEngine.java:580)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.setCSSTheme(PartRenderingEngine.java:1442)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1349)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1066)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.jface 2 0 2018-10-05 02:07:34.618
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-05 02:07:34.618
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2da8ed80,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d827673,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:07:45.696
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-05 02:07:47.580
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ROBOTECH'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:07:48.214
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PGptOaid
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:07:48.214
+!MESSAGE subscribing to classpath changes: sts4.classpath.PGptOaid
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:07:48.229
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:07:48.229
+!MESSAGE subsribers = [sts4.classpath.PGptOaid]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:07:48.229
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:07:48.245
+!MESSAGE project Bookstore ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:07:48.261
+!MESSAGE project RemoteSystemsTempFiles ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:07:48.261
+!MESSAGE Preparing classpath changed notification Bookstore
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:07:48.261
+!MESSAGE project RemoteSystemsTempFiles SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:07:48.276
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:07:48.276
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:07:48.276
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PGptOaid => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:07:48.292
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:07:48.292
+!MESSAGE executing callback sts4.classpath.PGptOaid Bookstore false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:07:48.776
+!MESSAGE executing callback sts4.classpath.PGptOaid SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:14:59.658
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.controller[*]: {CHILDREN}
+				[Working copy] HomeController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:15:00.018
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore[*]: {CHILDREN}
+				BookstoreApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:15:06.890
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.controller[*]: {CHILDREN}
+				HomeController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:15:06.900
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PGptOaid
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:15:06.906
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.PGptOaid
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:15:06.912
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 02:15:06.917
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PGptOaid => OK
+
+!ENTRY org.eclipse.ui 2 2 2018-10-05 02:15:09.997
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+!SESSION 2018-10-05 19:54:10.029 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2018-10-05 19:54:25.428
+!MESSAGE /resources/css/dark.css
+!STACK 0
+java.io.FileNotFoundException: /resources/css/dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:54)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:172)
+	at java.net.URL.openConnection(Unknown Source)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:280)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:280)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:451)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:419)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.restore(ThemeEngine.java:580)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.setCSSTheme(PartRenderingEngine.java:1442)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1349)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1066)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.jface 2 0 2018-10-05 19:54:26.788
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-05 19:54:26.788
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@46e38c28,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c7f8c25,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-05 19:54:32.719
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ROBOTECH'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 0 2018-10-05 19:54:38.774
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer", thread "Thread[Worker-8: Update dynamic Java sources working sets,5,main]" timed out waiting (5039ms) for thread "Thread[Worker-1: Initializing Java Tooling,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_1.9.1.20180912-1601 [270]". To avoid deadlock, thread "Thread[Worker-8: Update dynamic Java sources working sets,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: Unable to acquire the state change lock for the module: osgi.identity; type="osgi.bundle"; version:Version="1.9.1.20180912-1601"; osgi.identity="org.eclipse.m2e.jdt"; singleton:="true" [id=270] STARTED [STARTED]
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:340)
+	at org.eclipse.osgi.container.Module.start(Module.java:404)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:612)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:180)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:934)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3669)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3645)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3192)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3095)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3157)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2128)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3622)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3147)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3311)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2388)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:478)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+	at org.eclipse.jdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:2264)
+	at org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater.updateElements(DynamicSourcesWorkingSetUpdater.java:201)
+	at org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater.updateElements(DynamicSourcesWorkingSetUpdater.java:182)
+	at org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater$1.run(DynamicSourcesWorkingSetUpdater.java:169)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	... 39 more
+Root exception:
+java.util.concurrent.TimeoutException: Timeout after waiting 5 seconds to acquire the lock.
+	at org.eclipse.osgi.container.Module.lockStateChange(Module.java:337)
+	at org.eclipse.osgi.container.Module.start(Module.java:404)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:471)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:557)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:331)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:473)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:414)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:153)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:612)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:180)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:934)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:246)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:63)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3669)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3645)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:3192)
+	at org.eclipse.jdt.internal.core.JavaModelManager$10.run(JavaModelManager.java:3095)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2319)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeAllContainers(JavaModelManager.java:3157)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:2128)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3622)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3147)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:3311)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:2388)
+	at org.eclipse.jdt.internal.core.JavaProject.buildStructure(JavaProject.java:478)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:268)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.JavaElement.getChildren(JavaElement.java:267)
+	at org.eclipse.jdt.internal.core.JavaProject.getPackageFragmentRoots(JavaProject.java:2264)
+	at org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater.updateElements(DynamicSourcesWorkingSetUpdater.java:201)
+	at org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater.updateElements(DynamicSourcesWorkingSetUpdater.java:182)
+	at org.eclipse.jdt.internal.ui.workingsets.DynamicSourcesWorkingSetUpdater$1.run(DynamicSourcesWorkingSetUpdater.java:169)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 2 2 2018-10-05 19:56:47.188
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:57:51.504
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:57:54.086
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yNeaUZRS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:57:54.093
+!MESSAGE subscribing to classpath changes: sts4.classpath.yNeaUZRS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:57:54.100
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:57:54.107
+!MESSAGE subsribers = [sts4.classpath.yNeaUZRS]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:57:54.114
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:57:54.133
+!MESSAGE project Bookstore ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:57:54.140
+!MESSAGE project RemoteSystemsTempFiles ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:57:54.146
+!MESSAGE Preparing classpath changed notification Bookstore
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:57:54.152
+!MESSAGE project RemoteSystemsTempFiles SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:57:54.158
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:57:54.165
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:57:54.171
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yNeaUZRS => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:57:54.180
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:57:54.187
+!MESSAGE executing callback sts4.classpath.yNeaUZRS Bookstore false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:57:54.634
+!MESSAGE executing callback sts4.classpath.yNeaUZRS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:58:12.692
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] Role.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:58:46.813
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service[*]: {CHILDREN}
+				[Working copy] UserService.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:59:16.911
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.repository[*]: {CHILDREN}
+				[Working copy] RoleRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:59:21.005
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.repository[*]: {CHILDREN}
+				[Working copy] RoleRepository.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:59:21.023
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.repository[*]: {CHILDREN}
+				[Working copy] RoleRepository.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:59:21.616
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.repository[*]: {CHILDREN}
+				[Working copy] RoleRepository.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:59:22.446
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:59:24.059
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.repository[*]: {CHILDREN}
+				RoleRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:59:25.314
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service[*]: {CHILDREN}
+				UserService.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 19:59:26.192
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				Role.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:04:17.617
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:06:23.525
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:06:34.140
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:06:34.334
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:06:55.003
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:06:55.091
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:06:55.316
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:06:55.792
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:08:11.483
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:08:11.615
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:09:55.073
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:09:55.294
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:10:43.462
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:10:43.677
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:13:25.338
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore[*]: {CHILDREN}
+				[Working copy] BookstoreApplication.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:13:25.681
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:16:00.495
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:16:00.729
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:16:00.789
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:16:00.989
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:16:10.684
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:16:39.366
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:16:39.424
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:16:39.631
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:16:54.355
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:16:58.420
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:16:58.477
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:16:58.864
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:18:23.212
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:18:23.420
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:19:37.435
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:19:41.135
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:19:41.240
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:19:41.317
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:20:47.757
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:20:49.853
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:20:50.923
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:20:50.977
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:20:51.232
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:21:35.451
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:21:35.525
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:21:35.729
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:23:39.027
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.config[*]: {CHILDREN}
+				[Working copy] SecurityConfig.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:24:08.657
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.config[*]: {CHILDREN}
+				[Working copy] SecurityConfig.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:24:08.664
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.config[*]: {CHILDREN}
+				[Working copy] SecurityConfig.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:24:09.677
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.config[*]: {CHILDREN}
+				[Working copy] SecurityConfig.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:24:09.688
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.config[*]: {CHILDREN}
+				[Working copy] SecurityConfig.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:24:18.225
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.config[*]: {CHILDREN}
+				[Working copy] SecurityConfig.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:24:18.236
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.config[*]: {CHILDREN}
+				[Working copy] SecurityConfig.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:24:29.599
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.config[*]: {CHILDREN}
+				[Working copy] SecurityConfig.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:24:30.328
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:25:37.307
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:25:55.922
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:25:55.930
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:25:59.447
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:25:59.459
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:26:00.478
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:26:00.492
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:26:03.008
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:26:03.015
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:26:05.529
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:26:05.540
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:26:08.892
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:26:09.197
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:26:47.140
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:26:47.151
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:26:55.682
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:26:55.694
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:04.226
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:04.236
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:07.764
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:07.776
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:11.801
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:11.814
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:13.331
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:13.337
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:14.849
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:14.856
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:16.365
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:16.372
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:19.899
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:19.907
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:24.927
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:24.937
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:25.953
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:25.963
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:37.996
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:38.003
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:40.517
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:40.524
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:47.044
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:47.052
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:48.564
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:27:48.570
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:28:05.693
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:28:06.010
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:28:41.178
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:28:41.186
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:28:42.696
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:28:42.703
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:28:43.712
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:28:43.721
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:28:46.235
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:28:46.242
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:29:00.279
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:29:00.288
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:29:07.546
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:29:07.846
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:29:36.871
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:29:36.882
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:29:58.941
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:29:58.953
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:00.590
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:00.598
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:07.119
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:07.130
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:08.144
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:08.155
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:16.185
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:16.196
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:17.214
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:17.226
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:19.744
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:19.755
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:22.272
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:22.282
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:22.704
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:23.067
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:57.375
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:57.383
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:59.396
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:31:59.406
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:32:00.420
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:32:00.431
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:32:01.446
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:32:01.456
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:32:02.676
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:32:03.405
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:32:54.574
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:32:54.585
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:33:06.101
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:33:06.381
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:33:21.153
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:33:21.165
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:33:22.592
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:33:22.841
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:33:24.889
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:33:24.907
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:33:26.882
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:33:27.178
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:33:39.716
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:33:39.726
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:33:40.761
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:33:41.191
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:38:05.054
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] UserRole.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:38:39.874
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] UserRole.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:38:40.195
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:41:40.851
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				UserRole.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:41:52.743
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:42:00.541
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:42:00.640
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:42:00.696
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:44:14.210
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:44:35.556
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:44:35.655
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:44:35.844
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:45:32.492
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:46:44.764
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:46:50.888
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:46:53.459
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:46:55.523
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:47:09.058
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:47:09.392
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:47:09.497
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:47:09.543
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:49:33.146
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:51:39.927
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:51:40.020
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:51:40.179
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:58:13.200
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:58:13.301
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:58:13.364
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:58:16.042
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:58:40.951
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 20:58:42.557
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:59:01.889
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:59:01.987
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 20:59:02.191
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 21:04:45.025
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:08:11.620
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:08:11.712
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:08:11.950
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:09:38.537
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:09:38.639
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:09:38.726
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 21:14:15.258
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 21:25:39.530
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 21:25:56.694
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:26:00.333
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:26:00.391
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:26:00.580
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 21:28:37.105
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 21:28:39.386
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 21:30:30.663
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 21:30:44.044
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 21:31:02.102
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:31:22.167
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:31:22.228
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:31:22.473
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 21:32:35.761
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:34:42.182
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:34:42.250
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:34:42.421
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 21:37:14.700
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:37:19.876
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:37:19.982
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:37:20.036
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 21:37:22.897
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:37:59.870
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:38:00.003
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:38:00.198
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 21:41:25.043
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:41:25.375
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:41:25.541
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:59:16.175
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:59:16.276
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 21:59:16.458
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 22:07:08.469
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:07:12.255
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:07:12.358
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:07:12.563
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 22:08:15.398
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 22:08:18.182
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:08:18.771
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:08:18.877
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:08:18.939
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:10:22.141
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore[*]: {CHILDREN}
+				BookstoreApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:10:22.220
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.config[*]: {CHILDREN}
+				SecurityConfig.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:10:22.301
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				UserServiceImpl.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:10:22.347
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.yNeaUZRS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:10:22.353
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.yNeaUZRS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:10:22.359
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:10:22.365
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.yNeaUZRS => OK
+!SESSION 2018-10-05 22:35:46.464 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2018-10-05 22:35:59.576
+!MESSAGE /resources/css/dark.css
+!STACK 0
+java.io.FileNotFoundException: /resources/css/dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:54)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:172)
+	at java.net.URL.openConnection(Unknown Source)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:280)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:280)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:451)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:419)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.restore(ThemeEngine.java:580)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.setCSSTheme(PartRenderingEngine.java:1442)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1349)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1066)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.jface 2 0 2018-10-05 22:36:00.857
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-05 22:36:00.857
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5e0602ff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a865ebf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:36:14.607
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:36:17.633
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nAaUxdeF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:36:17.649
+!MESSAGE subscribing to classpath changes: sts4.classpath.nAaUxdeF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:36:17.664
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:36:17.680
+!MESSAGE subsribers = [sts4.classpath.nAaUxdeF]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:36:17.696
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-05 22:36:17.899
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ROBOTECH'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:36:17.961
+!MESSAGE project Bookstore ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:36:17.977
+!MESSAGE project RemoteSystemsTempFiles ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:36:17.977
+!MESSAGE Preparing classpath changed notification Bookstore
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:36:17.992
+!MESSAGE project RemoteSystemsTempFiles SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:36:18.008
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:36:18.008
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:36:18.024
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nAaUxdeF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:36:18.039
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:36:18.055
+!MESSAGE executing callback sts4.classpath.nAaUxdeF Bookstore false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:36:18.251
+!MESSAGE executing callback sts4.classpath.nAaUxdeF SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2018-10-05 22:43:08.285
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:43:08.648
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore[*]: {CHILDREN}
+				BookstoreApplication.java[*]: {CONTENT | PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:43:10.227
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:43:15.131
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:43:59.347
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nAaUxdeF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:43:59.353
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.nAaUxdeF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:43:59.362
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:43:59.369
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.nAaUxdeF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:44:25.612
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.mxRerGZf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:44:25.618
+!MESSAGE subscribing to classpath changes: sts4.classpath.mxRerGZf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:44:25.624
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:44:25.630
+!MESSAGE subsribers = [sts4.classpath.mxRerGZf]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:44:25.635
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:44:25.641
+!MESSAGE project Bookstore ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:44:25.646
+!MESSAGE Preparing classpath changed notification Bookstore
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:44:25.652
+!MESSAGE project RemoteSystemsTempFiles ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:44:25.657
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:44:25.662
+!MESSAGE project RemoteSystemsTempFiles SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:44:25.667
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:44:25.673
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:44:25.678
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.mxRerGZf => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:44:25.683
+!MESSAGE executing callback sts4.classpath.mxRerGZf Bookstore false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 22:44:25.809
+!MESSAGE executing callback sts4.classpath.mxRerGZf SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 22:55:52.137
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-05 22:56:34.771
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:09:08.803
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:09:09.091
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:09:09.337
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore[*]: {CHILDREN}
+				BookstoreApplication.java[*]: {CONTENT | PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:09:10.275
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:09:15.515
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:09:15.726
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:13:41.557
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT | RAW CLASSPATH CHANGED | RESOLVED CLASSPATH CHANGED}
+		target/generated-test-sources/test-annotations[-]: {}
+		ResourceDelta(/Bookstore/.classpath)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:13:41.563
+!MESSAGE Preparing classpath changed notification Bookstore
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:13:41.569
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:13:41.588
+!MESSAGE classpath=111 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:13:41.595
+!MESSAGE executing callback sts4.classpath.mxRerGZf Bookstore false 111
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:13:41.674
+!MESSAGE executing callback sts4.classpath.mxRerGZf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:13:45.648
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT | RAW CLASSPATH CHANGED | RESOLVED CLASSPATH CHANGED}
+		target/generated-sources/annotations[-]: {}
+		ResourceDelta(/Bookstore/.classpath)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:13:45.656
+!MESSAGE Preparing classpath changed notification Bookstore
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:13:45.666
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:13:45.689
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:13:45.698
+!MESSAGE executing callback sts4.classpath.mxRerGZf Bookstore false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:13:45.719
+!MESSAGE executing callback sts4.classpath.mxRerGZf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:13:45.988
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:13:47.506
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:13:47.968
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:15:27.610
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT | RAW CLASSPATH CHANGED | RESOLVED CLASSPATH CHANGED}
+		src/main/java[*]: {CHILDREN | CONTENT}
+			com[*]: {CONTENT}
+			com.bookstore[*]: {CHILDREN | CONTENT}
+				BookstoreApplication.java[*]: {CONTENT | PRIMARY RESOURCE}
+			com.bookstore.config[*]: {CHILDREN | CONTENT}
+				SecurityConfig.java[*]: {CONTENT | PRIMARY RESOURCE}
+			com.bookstore.controller[*]: {CHILDREN | CONTENT}
+				HomeController.java[*]: {CONTENT | PRIMARY RESOURCE}
+			com.bookstore.domain[*]: {CHILDREN | CONTENT}
+				User.java[*]: {CONTENT | PRIMARY RESOURCE}
+			com.bookstore.domain.security[*]: {CHILDREN | CONTENT}
+				Authority.java[*]: {CONTENT | PRIMARY RESOURCE}
+				PasswordResetToken.java[*]: {CONTENT | PRIMARY RESOURCE}
+				Role.java[*]: {CONTENT | PRIMARY RESOURCE}
+				UserRole.java[*]: {CONTENT | PRIMARY RESOURCE}
+			com.bookstore.repository[*]: {CHILDREN | CONTENT}
+				PasswordResetTokenRepository.java[*]: {CONTENT | PRIMARY RESOURCE}
+				RoleRepository.java[*]: {CONTENT | PRIMARY RESOURCE}
+				UserRepository.java[*]: {CONTENT | PRIMARY RESOURCE}
+			com.bookstore.service[*]: {CHILDREN | CONTENT}
+				UserService.java[*]: {CONTENT | PRIMARY RESOURCE}
+			com.bookstore.service.impl[*]: {CHILDREN | CONTENT}
+				UserSecurityService.java[*]: {CONTENT | PRIMARY RESOURCE}
+				UserServiceImpl.java[*]: {CONTENT | PRIMARY RESOURCE}
+			com.bookstore.utility[*]: {CHILDREN | CONTENT}
+				MailConstructor.java[*]: {CONTENT | PRIMARY RESOURCE}
+				SecurityUtility.java[*]: {CONTENT | PRIMARY RESOURCE}
+			ResourceDelta(/Bookstore/src/main/java/META-INF)[*]
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+			ResourceDelta(/Bookstore/src/main/resources/static)[*]
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		src/test/java[*]: {CHILDREN | CONTENT}
+			com[*]: {CONTENT}
+			com.bookstore[*]: {CHILDREN | CONTENT}
+				BookstoreApplicationTests.java[*]: {CONTENT | PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/target/generated-sources)[*]
+		ResourceDelta(/Bookstore/target/generated-test-sources)[*]
+		ResourceDelta(/Bookstore/.classpath)[*]
+		ResourceDelta(/Bookstore/.gitignore)[*]
+		ResourceDelta(/Bookstore/.mvn)[*]
+		ResourceDelta(/Bookstore/.project)[*]
+		ResourceDelta(/Bookstore/.settings)[*]
+		ResourceDelta(/Bookstore/mvnw)[*]
+		ResourceDelta(/Bookstore/mvnw.cmd)[*]
+		ResourceDelta(/Bookstore/pom.xml)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:15:27.618
+!MESSAGE Preparing classpath changed notification Bookstore
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:15:27.625
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:15:27.645
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:15:27.653
+!MESSAGE executing callback sts4.classpath.mxRerGZf Bookstore false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:15:27.753
+!MESSAGE executing callback sts4.classpath.mxRerGZf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:15:29.904
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:15:30.230
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT | RAW CLASSPATH CHANGED | RESOLVED CLASSPATH CHANGED}
+		ResourceDelta(/Bookstore/.classpath)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:15:30.235
+!MESSAGE Preparing classpath changed notification Bookstore
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:15:30.243
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:15:30.264
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:15:30.272
+!MESSAGE executing callback sts4.classpath.mxRerGZf Bookstore false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:15:30.291
+!MESSAGE executing callback sts4.classpath.mxRerGZf SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:15:30.829
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:15:32.082
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-05 23:17:24.040
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-05 23:17:24.109
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:17:28.059
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:17:28.218
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:17:46.826
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:17:47.106
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-05 23:18:17.242
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.jboss.tools.vpe.preview.core 4 0 2018-10-05 23:18:17.402
+!MESSAGE java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+!STACK 0
+javax.xml.transform.TransformerException: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	... 7 more
+---------
+java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.getNamespaceURI(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.SerializerBase.addAttribute(Unknown Source)
+	at com.sun.org.apache.xml.internal.serializer.ToUnknownStream.addAttribute(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(Unknown Source)
+	at org.jboss.tools.vpe.preview.core.transform.DomUtil.nodeToString(DomUtil.java:45)
+	at org.jboss.tools.vpe.preview.core.transform.VpvController.getResource(VpvController.java:84)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.processRequest(VpvSocketProcessor.java:83)
+	at org.jboss.tools.vpe.preview.core.server.VpvSocketProcessor.run(VpvSocketProcessor.java:68)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:18:20.308
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:18:20.650
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:18:48.221
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:18:48.473
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:23:38.675
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:23:39.183
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/application.properties)[*]
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:24:39.929
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:24:40.120
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
