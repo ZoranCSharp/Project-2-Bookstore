@@ -8,3 +8,5 @@
 * <i><b>Spring ToolSuite4</b></i>
 * <i><b>Hibernate</b></i><i> (JBOSS Tools)</i>
 * <i><b>MySQL Workbench 8.0 CE</b></i>
+
+1) Sign into the old Gmail account first ( the one you are trying to fetch mail from ) and make sure POP is enabled in settings either for ALL MAIL or only for mail that arrives from now on - depending on what you want collected
