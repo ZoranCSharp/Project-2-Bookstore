@@ -26,7 +26,6 @@
 <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
 <fullyQualifiedTypeName name="java.util.stream.Stream"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="com.bookstore.domain.security.PasswordResetToken"/>
 <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Modifying"/>
 <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
 <fullyQualifiedTypeName name="org.apache.catalina.User"/>
@@ -60,4 +59,5 @@
 <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
 <fullyQualifiedTypeName name="org.slf4j.Logger"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="com.bookstore.domain.security.PasswordResetToken"/>
 </qualifiedTypeNameHistroy>

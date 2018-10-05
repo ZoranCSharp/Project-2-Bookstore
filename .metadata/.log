@@ -6010,3 +6010,503 @@ java.lang.RuntimeException: Namespace for prefix 'xlmns' has not been declared.
 			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
 		ResourceDelta(/Bookstore/src)[*]
 		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:41:51.190
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:42:58.242
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.config[*]: {CHILDREN}
+				[Working copy] SecurityConfig.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:43:21.344
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.config[*]: {CHILDREN}
+				[Working copy] SecurityConfig.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:43:21.703
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:43:23.687
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.config[*]: {CHILDREN}
+				SecurityConfig.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:44:37.062
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.controller[*]: {CHILDREN}
+				[Working copy] HomeController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:44:41.983
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.controller[*]: {CHILDREN}
+				HomeController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:44:46.733
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.controller[*]: {CHILDREN}
+				[Working copy] HomeController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:44:53.927
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.controller[*]: {CHILDREN}
+				HomeController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:47:37.666
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.config[*]: {CHILDREN}
+				[Working copy] SecurityConfig.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:48:49.176
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.config[*]: {CHILDREN}
+				SecurityConfig.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:49:56.685
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:49:56.959
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:50:10.569
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				[Working copy] UserServiceImpl.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:50:10.883
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:57:42.006
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.utility[*]: {CHILDREN}
+				[Working copy] MailConstructor.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:58:00.093
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.utility[*]: {CHILDREN}
+				[Working copy] MailConstructor.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:58:00.100
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.utility[*]: {CHILDREN}
+				[Working copy] MailConstructor.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:58:36.755
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.utility[*]: {CHILDREN}
+				[Working copy] MailConstructor.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:58:37.069
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:59:29.619
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.utility[*]: {CHILDREN}
+				[Working copy] MailConstructor.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:59:29.909
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-05 23:59:49.647
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.repository[*]: {CHILDREN}
+				[Working copy] PasswordResetTokenRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:14.164
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:16.494
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.repository[*]: {CHILDREN}
+				PasswordResetTokenRepository.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:21.736
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:21.742
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:27.763
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:27.771
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:30.807
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:30.817
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:50.423
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:50.438
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:51.469
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:51.508
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:53.151
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:53.162
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:54.686
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:54.697
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:56.008
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:57.520
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:00:57.539
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:01:27.852
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:01:28.551
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:03:55.813
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.service.impl[*]: {CHILDREN}
+				UserServiceImpl.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:03:58.910
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.utility[*]: {CHILDREN}
+				MailConstructor.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:00.380
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				PasswordResetToken.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:00.389
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mxRerGZf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:00.395
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.mxRerGZf
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:00.400
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:00.405
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mxRerGZf => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:03.569
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BxepUtMV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:03.575
+!MESSAGE subscribing to classpath changes: sts4.classpath.BxepUtMV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:03.581
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:03.587
+!MESSAGE subsribers = [sts4.classpath.BxepUtMV]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:03.592
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:03.596
+!MESSAGE project Bookstore ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:03.601
+!MESSAGE Preparing classpath changed notification Bookstore
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:03.606
+!MESSAGE project RemoteSystemsTempFiles ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:03.611
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:03.616
+!MESSAGE project RemoteSystemsTempFiles SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:03.622
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:03.627
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BxepUtMV => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:03.633
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:03.639
+!MESSAGE executing callback sts4.classpath.BxepUtMV Bookstore false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:04:04.006
+!MESSAGE executing callback sts4.classpath.BxepUtMV SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:05:08.923
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.controller[*]: {CHILDREN}
+				[Working copy] HomeController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:05:09.399
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CONTENT}
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:10:35.070
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:10:35.273
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:14:05.609
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:14:05.674
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:15:28.100
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:15:28.332
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:15:40.923
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:15:41.130
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:22:51.823
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:22:52.039
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:23:08.302
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:23:08.503
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/Bookstore/src/main/resources/templates)[*]
+		ResourceDelta(/Bookstore/src)[*]
+		ResourceDelta(/Bookstore/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:25:29.464
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.controller[*]: {CHILDREN}
+				HomeController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:25:29.480
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BxepUtMV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:25:29.487
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.BxepUtMV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:25:29.492
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 00:25:29.498
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BxepUtMV => OK
