@@ -1,17 +1,25 @@
 package com.bookstore.service.impl;
 
+import java.util.Set;
+
+import javax.xml.crypto.dsig.spec.ExcC14NParameterSpec;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.bookstore.domain.User;
 import com.bookstore.domain.security.PasswordResetToken;
+import com.bookstore.domain.security.UserRole;
 import com.bookstore.repository.PasswordResetTokenRepository;
+import com.bookstore.repository.RoleRepository;
 import com.bookstore.repository.UserRepository;
 import com.bookstore.service.UserService;
 
 @Service
 public class UserServiceImpl implements UserService{
 	
+	@Autowired
+	private RoleRepository roleRepository;
 	
 	@Autowired
 	private UserRepository userRepository;
@@ -38,9 +46,53 @@ public class UserServiceImpl implements UserService{
 		return userRepository.findByUsername(username);
 	}
 	
-	
+	@Override
 	public User findByEmail(String email){
 	
 		return userRepository.findByEmail(email);
 	}
+	
+	
+	public User createUser(User user, Set<UserRole> userRoles ) throws Exception{
+		
+		User localUser = userRepository.findByUsername(user.getUsername());
+		
+		if(localUser != null) {
+			
+			throw new Exception("User already exists. Nothing will be done.");
+			
+		}else {
+			
+			for(UserRole ur: userRoles) {
+				
+				roleRepository.save(ur.getRole());
+			}
+			
+			user.getUserRoles().addAll(userRoles);
+			
+			localUser = userRepository.save(user);
+		}
+		
+		return localUser;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
