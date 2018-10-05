@@ -12,3 +12,5 @@
 1) Sign into the old Gmail account first ( the one you are trying to fetch mail from ) and make sure POP is enabled in settings either for ALL MAIL or only for mail that arrives from now on - depending on what you want collected
 
 2) You may need to Enable less-secure Apps for that account >> https://www.google.com/settings/security/lesssecureapps
+
+3) Then go here: https://accounts.google.com/b/0/DisplayUnlockCaptcha
