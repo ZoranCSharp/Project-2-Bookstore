@@ -20,5 +20,5 @@
 
 
 <b>ERD - House of Leaves Bookstore</b>
-
-<img>https://github.com/ZoranKJava/Project-2-Bookstore/blob/master/ERD%20-%20House%20of%20Leaves%20Bookstore.xml</img>
+<img src="https://github.com/ZoranKJava/gifs/blob/master/ERD.jpg"/>
+<a>https://github.com/ZoranKJava/Project-2-Bookstore/blob/master/ERD%20-%20House%20of%20Leaves%20Bookstore.xml</a>
