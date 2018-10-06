@@ -8252,3 +8252,2236 @@ Caused by: java.lang.NullPointerException
 
 !ENTRY org.eclipse.ui 2 2 2018-10-06 01:55:14.449
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+!SESSION 2018-10-06 15:23:41.426 -----------------------------------------------
+eclipse.buildId=4.0.0.201809220817-RELEASE
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.e4.ui.css.swt.theme 4 0 2018-10-06 15:23:54.172
+!MESSAGE /resources/css/dark.css
+!STACK 0
+java.io.FileNotFoundException: /resources/css/dark.css
+	at org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:54)
+	at org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:172)
+	at java.net.URL.openConnection(Unknown Source)
+	at org.eclipse.osgi.storage.url.BundleURLConverter.resolve(BundleURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:280)
+	at org.eclipse.core.internal.runtime.PlatformURLConverter.resolve(PlatformURLConverter.java:53)
+	at org.eclipse.core.runtime.FileLocator.resolve(FileLocator.java:280)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:451)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.setTheme(ThemeEngine.java:419)
+	at org.eclipse.e4.ui.css.swt.internal.theme.ThemeEngine.restore(ThemeEngine.java:580)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.setCSSTheme(PartRenderingEngine.java:1442)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.initializeStyling(PartRenderingEngine.java:1349)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1066)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+
+!ENTRY org.eclipse.jface 2 0 2018-10-06 15:23:55.377
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-06 15:23:55.377
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a865ebf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b3d3e57,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:24:06.406
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-10-06 15:24:08.803
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ROBOTECH'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:24:09.244
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lNnjQUuT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:24:09.254
+!MESSAGE subscribing to classpath changes: sts4.classpath.lNnjQUuT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:24:09.265
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:24:09.275
+!MESSAGE subsribers = [sts4.classpath.lNnjQUuT]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:24:09.283
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:24:09.301
+!MESSAGE project Bookstore ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:24:09.310
+!MESSAGE project RemoteSystemsTempFiles ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:24:09.319
+!MESSAGE Preparing classpath changed notification Bookstore
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:24:09.329
+!MESSAGE project RemoteSystemsTempFiles SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:24:09.347
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:24:09.374
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:24:09.385
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lNnjQUuT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:24:09.397
+!MESSAGE classpath=112 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:24:09.407
+!MESSAGE executing callback sts4.classpath.lNnjQUuT Bookstore false 112
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:24:10.509
+!MESSAGE executing callback sts4.classpath.lNnjQUuT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:00.268
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/adminPortal)[+]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:00.343
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/adminPortal)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:00.433
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/adminPortal)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:00.461
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/adminPortal)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:09.249
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/adminPortal)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:09.260
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/adminPortal)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:09.269
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/adminPortal)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:09.278
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/adminPortal)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:10.097
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/adminPortal)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:10.442
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/adminPortal)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:10.453
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CONTENT}
+	ResourceDelta(/adminPortal)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:10.507
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN | CONTENT}
+	adminPortal[+]: {}
+	ResourceDelta(/adminPortal)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:10.514
+!MESSAGE Preparing classpath changed notification adminPortal
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:10.520
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:10.529
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		<project root>[*]: {CHILDREN}
+			target[*]: {CONTENT}
+				ResourceDelta(/adminPortal/target/test-classes)[+]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:10.536
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:10.542
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		<project root>[*]: {CHILDREN}
+			target[*]: {CONTENT}
+				ResourceDelta(/adminPortal/target/test-classes)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:10.547
+!MESSAGE executing callback sts4.classpath.lNnjQUuT adminPortal false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:11.098
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		<project root>[*]: {CHILDREN}
+			src.main.java[*]: {CONTENT}
+			src.main.java.com[*]: {CONTENT}
+			src.main.java.com.adminportal[*]: {CHILDREN | CONTENT}
+				AdminPortalApplication.java[*]: {CONTENT | PRIMARY RESOURCE}
+		ResourceDelta(/adminPortal/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:11.120
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		<project root>[*]: {CHILDREN}
+			src.main.resources[*]: {CONTENT}
+				ResourceDelta(/adminPortal/src/main/resources/application.properties)[*]
+				ResourceDelta(/adminPortal/src/main/resources/static)[*]
+			src.main.resources.templates[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:11.129
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		<project root>[*]: {CHILDREN}
+			src.main.resources[*]: {CONTENT}
+				ResourceDelta(/adminPortal/src/main/resources/application.properties)[*]
+				ResourceDelta(/adminPortal/src/main/resources/static)[*]
+			src.main.resources.templates[*]: {CONTENT}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:11.144
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		<project root>[*]: {CHILDREN}
+			src.test.java[*]: {CONTENT}
+			src.test.java.com[*]: {CONTENT}
+			src.test.java.com.adminportal[*]: {CHILDREN | CONTENT}
+				AdminPortalApplicationTests.java[*]: {CONTENT | PRIMARY RESOURCE}
+		ResourceDelta(/adminPortal/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:11.186
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:11.208
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:11.238
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:11.254
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:11.272
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:11.288
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:11.425
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT | RAW CLASSPATH CHANGED | RESOLVED CLASSPATH CHANGED}
+		<project root>[*]: {REMOVED FROM CLASSPATH}
+		src/main/java[*]: {ADDED TO CLASSPATH}
+		src/main/resources[*]: {ADDED TO CLASSPATH}
+		src/test/java[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\resources.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\rt.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\jsse.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\jce.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\charsets.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\jfr.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\access-bridge-64.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\cldrdata.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\dnsns.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\jaccess.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\jfxrt.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\localedata.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\nashorn.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\sunec.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\sunjce_provider.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\sunmscapi.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\sunpkcs11.jar[*]: {ADDED TO CLASSPATH}
+		C:\Program Files\Java\jre1.8.0_181\lib\ext\zipfs.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\2.0.5.RELEASE\spring-boot-starter-thymeleaf-2.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter\2.0.5.RELEASE\spring-boot-starter-2.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot\2.0.5.RELEASE\spring-boot-2.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.0.5.RELEASE\spring-boot-autoconfigure-2.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.0.5.RELEASE\spring-boot-starter-logging-2.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.10.0.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\thymeleaf\thymeleaf-spring5\3.0.9.RELEASE\thymeleaf-spring5-3.0.9.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\thymeleaf\thymeleaf\3.0.9.RELEASE\thymeleaf-3.0.9.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\attoparser\attoparser\2.0.4.RELEASE\attoparser-2.0.4.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\unbescape\unbescape\1.1.5.RELEASE\unbescape-1.1.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-java8time\3.0.1.RELEASE\thymeleaf-extras-java8time-3.0.1.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.0.5.RELEASE\spring-boot-starter-web-2.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.0.5.RELEASE\spring-boot-starter-json-2.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.6\jackson-databind-2.9.6.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.6\jackson-core-2.9.6.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.6\jackson-datatype-jdk8-2.9.6.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.6\jackson-datatype-jsr310-2.9.6.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.6\jackson-module-parameter-names-2.9.6.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.0.5.RELEASE\spring-boot-starter-tomcat-2.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.34\tomcat-embed-core-8.5.34.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.34\tomcat-embed-el-8.5.34.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.34\tomcat-embed-websocket-8.5.34.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.12.Final\hibernate-validator-6.0.12.Final.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-web\5.0.9.RELEASE\spring-web-5.0.9.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-beans\5.0.9.RELEASE\spring-beans-5.0.9.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-webmvc\5.0.9.RELEASE\spring-webmvc-5.0.9.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-aop\5.0.9.RELEASE\spring-aop-5.0.9.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-context\5.0.9.RELEASE\spring-context-5.0.9.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-expression\5.0.9.RELEASE\spring-expression-5.0.9.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.0.5.RELEASE\spring-boot-starter-test-2.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-test\2.0.5.RELEASE\spring-boot-test-2.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.5.RELEASE\spring-boot-test-autoconfigure-2.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\junit\junit\4.12\junit-4.12.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\mockito\mockito-core\2.15.0\mockito-core-2.15.0.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-core\5.0.9.RELEASE\spring-core-5.0.9.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-jcl\5.0.9.RELEASE\spring-jcl-5.0.9.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-test\5.0.9.RELEASE\spring-test-5.0.9.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar[*]: {ADDED TO CLASSPATH}
+		ResourceDelta(/adminPortal/.classpath)[+]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:12.555
+!MESSAGE executing callback sts4.classpath.lNnjQUuT FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2018-10-06 15:54:12.561
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:12.571
+!MESSAGE Preparing classpath changed notification adminPortal
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:12.578
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:12.593
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:12.602
+!MESSAGE executing callback sts4.classpath.lNnjQUuT adminPortal false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:13.342
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:13.877
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:13.892
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:13.919
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.project)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:13.942
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.project)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:13.996
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.project)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:14.614
+!MESSAGE executing callback sts4.classpath.lNnjQUuT FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2018-10-06 15:54:14.624
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:16.224
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT | RAW CLASSPATH CHANGED}
+		src/main/java[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/java/META-INF)[+]
+		target/generated-sources/annotations[+]: {}
+		target/generated-test-sources/test-annotations[+]: {}
+		ResourceDelta(/adminPortal/.classpath)[*]
+		ResourceDelta(/adminPortal/.project)[*]
+		ResourceDelta(/adminPortal/.settings)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:16.231
+!MESSAGE Preparing classpath changed notification adminPortal
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:16.237
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:16.252
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:16.258
+!MESSAGE executing callback sts4.classpath.lNnjQUuT adminPortal false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:17.919
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		target/generated-sources/annotations[*]: {CONTENT}
+		target/generated-test-sources/test-annotations[*]: {CONTENT}
+		ResourceDelta(/adminPortal/target/generated-sources)[*]
+		ResourceDelta(/adminPortal/target/generated-test-sources)[*]
+		ResourceDelta(/adminPortal/.classpath)[*]
+		ResourceDelta(/adminPortal/.gitignore)[*]
+		ResourceDelta(/adminPortal/.mvn)[*]
+		ResourceDelta(/adminPortal/.project)[*]
+		ResourceDelta(/adminPortal/.settings)[*]
+		ResourceDelta(/adminPortal/mvnw)[*]
+		ResourceDelta(/adminPortal/mvnw.cmd)[*]
+		ResourceDelta(/adminPortal/pom.xml)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:18.078
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN | CONTENT}
+			com[*]: {CONTENT}
+			com.adminportal[*]: {CHILDREN | CONTENT}
+				AdminPortalApplication.java[*]: {CONTENT | PRIMARY RESOURCE}
+			ResourceDelta(/adminPortal/src/main/java/META-INF)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:18.112
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/application.properties)[*]
+			ResourceDelta(/adminPortal/src/main/resources/static)[*]
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:18.252
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT | RAW CLASSPATH CHANGED}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/application.properties)[*]
+			ResourceDelta(/adminPortal/src/main/resources/static)[*]
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		src/test/java[*]: {CHILDREN | CONTENT}
+			com[*]: {CONTENT}
+			com.adminportal[*]: {CHILDREN | CONTENT}
+				AdminPortalApplicationTests.java[*]: {CONTENT | PRIMARY RESOURCE}
+		ResourceDelta(/adminPortal/.classpath)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:18.265
+!MESSAGE executing callback sts4.classpath.lNnjQUuT FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2018-10-06 15:54:18.272
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:18.283
+!MESSAGE Preparing classpath changed notification adminPortal
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:18.293
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:18.310
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:18.317
+!MESSAGE executing callback sts4.classpath.lNnjQUuT adminPortal false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:20.326
+!MESSAGE executing callback sts4.classpath.lNnjQUuT FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2018-10-06 15:54:20.333
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:21.125
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:21.206
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT | RAW CLASSPATH CHANGED}
+		ResourceDelta(/adminPortal/.classpath)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:21.213
+!MESSAGE Preparing classpath changed notification adminPortal
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:21.219
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:21.232
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:21.238
+!MESSAGE executing callback sts4.classpath.lNnjQUuT adminPortal false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:21.257
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:21.375
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT | RESOLVED CLASSPATH CHANGED}
+		ResourceDelta(/adminPortal/.classpath)[*]
+		ResourceDelta(/adminPortal/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:21.415
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:21.653
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:21.872
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:21.955
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.project)[*]
+		ResourceDelta(/adminPortal/.settings)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:21.973
+!MESSAGE executing callback sts4.classpath.lNnjQUuT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:21.983
+!MESSAGE Preparing classpath changed notification adminPortal
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:21.991
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:22.006
+!MESSAGE classpath=84 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:22.013
+!MESSAGE executing callback sts4.classpath.lNnjQUuT adminPortal false 84
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:22.027
+!MESSAGE executing callback sts4.classpath.lNnjQUuT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:22.400
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:23.230
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:54:43.241
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	Bookstore[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.controller[*]: {CHILDREN}
+				HomeController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-06 15:55:36.545
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-10-06 15:55:43.589
+!MESSAGE Internal Error
+!STACK 0
+org.eclipse.jface.text.BadPartitioningException
+	at org.eclipse.jface.text.AbstractDocument.getPartition(AbstractDocument.java:1392)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo(PropertiesFileHover.java:135)
+	at org.eclipse.jdt.internal.ui.propertiesfileeditor.PropertiesFileHover.getHoverInfo2(PropertiesFileHover.java:108)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:55:53.935
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/application.properties)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:55:54.020
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/application.properties)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:55:54.211
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:57:07.619
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore[+]: {}
+			com.bookstore.domain[+]: {}
+			com.bookstore.domain.security[+]: {}
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:57:08.159
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 15:57:20.750
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] Authority.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:00:41.481
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:00:43.199
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/.project)[*]
+		ResourceDelta(/adminPortal/.settings)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:00:43.588
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | RESOLVED CLASSPATH CHANGED}
+		C:\Users\ROBOTECH\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-java8time\3.0.1.RELEASE\thymeleaf-extras-java8time-3.0.1.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.0.5.RELEASE\spring-boot-starter-web-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.0.5.RELEASE\spring-boot-starter-json-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.6\jackson-databind-2.9.6.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.6\jackson-core-2.9.6.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.6\jackson-datatype-jdk8-2.9.6.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.6\jackson-datatype-jsr310-2.9.6.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.6\jackson-module-parameter-names-2.9.6.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.0.5.RELEASE\spring-boot-starter-tomcat-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.34\tomcat-embed-core-8.5.34.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.34\tomcat-embed-el-8.5.34.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.34\tomcat-embed-websocket-8.5.34.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.12.Final\hibernate-validator-6.0.12.Final.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-web\5.0.9.RELEASE\spring-web-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-beans\5.0.9.RELEASE\spring-beans-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-webmvc\5.0.9.RELEASE\spring-webmvc-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-aop\5.0.9.RELEASE\spring-aop-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-context\5.0.9.RELEASE\spring-context-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-expression\5.0.9.RELEASE\spring-expression-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.0.5.RELEASE\spring-boot-starter-test-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-test\2.0.5.RELEASE\spring-boot-test-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.5.RELEASE\spring-boot-test-autoconfigure-2.0.5.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\junit\junit\4.12\junit-4.12.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\mockito\mockito-core\2.15.0\mockito-core-2.15.0.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-core\5.0.9.RELEASE\spring-core-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-jcl\5.0.9.RELEASE\spring-jcl-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-test\5.0.9.RELEASE\spring-test-5.0.9.RELEASE.jar[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar[*]: {REORDERED}
+		target/generated-sources/annotations[*]: {REORDERED}
+		target/generated-test-sources/test-annotations[*]: {REORDERED}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.0.5.RELEASE\spring-boot-starter-jdbc-2.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\com\zaxxer\HikariCP\2.7.9\HikariCP-2.7.9.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-jdbc\5.0.9.RELEASE\spring-jdbc-5.0.9.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-tx\5.0.9.RELEASE\spring-tx-5.0.9.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.0.5.RELEASE\spring-boot-starter-data-jpa-2.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.0.5.RELEASE\spring-boot-starter-aop-2.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\aspectj\aspectjweaver\1.8.13\aspectjweaver-1.8.13.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\hibernate\hibernate-core\5.2.17.Final\hibernate-core-5.2.17.Final.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.2.Final\hibernate-jpa-2.1-api-1.0.2.Final.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\data\spring-data-jpa\2.0.10.RELEASE\spring-data-jpa-2.0.10.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\data\spring-data-commons\2.0.10.RELEASE\spring-data-commons-2.0.10.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-orm\5.0.9.RELEASE\spring-orm-5.0.9.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-aspects\5.0.9.RELEASE\spring-aspects-5.0.9.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\mysql\mysql-connector-java\5.1.47\mysql-connector-java-5.1.47.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\boot\spring-boot-starter-security\2.0.5.RELEASE\spring-boot-starter-security-2.0.5.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\security\spring-security-config\5.0.8.RELEASE\spring-security-config-5.0.8.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\security\spring-security-core\5.0.8.RELEASE\spring-security-core-5.0.8.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\security\spring-security-web\5.0.8.RELEASE\spring-security-web-5.0.8.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-springsecurity4\3.0.2.RELEASE\thymeleaf-extras-springsecurity4-3.0.2.RELEASE.jar[*]: {ADDED TO CLASSPATH}
+		C:\Users\ROBOTECH\.m2\repository\org\springframework\spring-context-support\5.0.9.RELEASE\spring-context-support-5.0.9.RELEASE.jar[*]: {ADDED TO CLASSPATH}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:00:43.596
+!MESSAGE Preparing classpath changed notification adminPortal
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:00:43.607
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:00:43.626
+!MESSAGE classpath=110 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:00:43.637
+!MESSAGE executing callback sts4.classpath.lNnjQUuT adminPortal false 110
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:00:44.235
+!MESSAGE executing callback sts4.classpath.lNnjQUuT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:00:45.687
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.eclipse.ui 4 0 2018-10-06 16:01:03.051
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:68)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:67)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4594)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:215)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:64)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:204)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:199)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:138)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:81)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:42)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:349)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:113)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:194)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:205)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:258)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:115)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:95)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:474)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:468)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:500)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4145)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1055)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5148)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4797)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:348)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1502)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2162)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4784)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:253)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3999)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3555)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:628)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:563)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:151)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:199)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:391)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:595)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1501)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.tm4e.ui.internal.menus.ThemeContribution.getContributionItems(ThemeContribution.java:58)
+	at org.eclipse.ui.actions.CompoundContributionItem.getContributionItemsToFill(CompoundContributionItem.java:83)
+	at org.eclipse.ui.actions.CompoundContributionItem.fill(CompoundContributionItem.java:57)
+	at org.eclipse.ui.internal.menus.DynamicMenuContributionItem.fill(DynamicMenuContributionItem.java:150)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:731)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:813)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:672)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1222)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeUIElementTopicAllRenderedVisibility(MenuManagerRenderer.java:203)
+	at sun.reflect.GeneratedMethodAccessor20.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	... 64 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:01:19.364
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:01:21.308
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:02:57.811
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:02:59.334
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:03:02.599
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/pom.xml)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:03:04.308
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.eclipse.ui 2 2 2018-10-06 16:04:02.973
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.ui.projectPropertyPage (bundle: org.springframework.ide.eclipse.boot.validation, propertyPage: org.springframework.ide.eclipse.boot.validation.preferences.BootValidationProjectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:04:23.485
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain[*]: {CHILDREN}
+				User.java[*]: {CONTENT | PRIMARY WORKING COPY | PRIMARY RESOURCE}
+			com.adminportal.domain[+]: {}
+			com.bookstore.domain.security[-]: {MOVED_TO(com.adminportal.domain.security [in src/main/java [in adminPortal]])}
+			com.adminportal.domain.security[+]: {MOVED_FROM(com.bookstore.domain.security [in src/main/java [in adminPortal]])}
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:04:23.600
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				Authority.java[-]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:04:23.615
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain.security[*]: {CHILDREN}
+				[Working copy] Authority.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:04:24.921
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:04:28.393
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain.security[-]: {MOVED_TO(com.bookstore.domain.security [in src/main/java [in adminPortal]])}
+			com.bookstore.domain.security[+]: {MOVED_FROM(com.adminportal.domain.security [in src/main/java [in adminPortal]])}
+			com.bookstore.domain[*]: {CHILDREN}
+				User.java[*]: {CONTENT | PRIMARY WORKING COPY | PRIMARY RESOURCE}
+			com.adminportal.domain[-]: {}
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:04:28.426
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain.security[*]: {CHILDREN}
+				Authority.java[-]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:04:28.435
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] Authority.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:04:28.936
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:04:53.495
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:04:53.503
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				PasswordResetToken.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:04:53.511
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				[Working copy] PasswordResetToken.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:04:53.518
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				PasswordResetToken.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:04:58.407
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[-]: {MOVED_TO(com.adminportal.domain.security [in src/main/java [in adminPortal]])}
+			com.bookstore.domain[-]: {}
+			com.adminportal.domain.security[+]: {MOVED_FROM(com.bookstore.domain.security [in src/main/java [in adminPortal]])}
+			com.adminportal.domain[+]: {}
+			com.bookstore[-]: {}
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:04:58.497
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.bookstore.domain.security[*]: {CHILDREN}
+				Authority.java[-]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:04:58.508
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain.security[*]: {CHILDREN}
+				[Working copy] Authority.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:04:59.053
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:07:34.304
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain.security[*]: {CHILDREN}
+				[Working copy] Role.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:07:37.170
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain.security[*]: {CHILDREN}
+				Role.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:22.308
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				Book.java[+]: {}
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:22.453
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:22.563
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:22.798
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:26.037
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:26.049
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:29.071
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:29.082
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:32.630
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:32.636
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:34.146
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:34.154
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:39.176
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:39.185
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:42.204
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:42.218
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:43.733
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:43.739
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:46.252
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:46.263
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:50.281
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:50.292
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:52.307
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:52.317
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:54.332
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:54.344
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:56.362
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:09:56.368
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:02.381
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:02.393
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:05.407
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:05.418
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:11.437
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:11.447
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:12.962
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:12.968
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:19.989
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:20.001
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:22.523
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:22.535
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:24.550
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:24.561
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:25.577
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:25.588
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:28.105
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:28.116
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:32.135
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:32.142
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:34.155
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:34.172
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:36.189
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:36.201
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:41.222
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:41.234
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:43.752
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:43.766
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:47.787
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:47.798
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:50.313
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:50.325
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:52.840
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:52.851
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:54.867
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:54.874
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:57.887
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:57.898
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:59.913
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:10:59.924
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:06.444
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:06.455
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:12.475
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:12.487
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:17.001
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:17.012
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:18.525
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:18.533
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:19.543
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:19.554
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:26.577
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:26.588
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:32.107
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:32.119
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:32.733
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:33.710
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:46.151
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:46.163
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:48.681
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:48.693
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:54.214
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:54.227
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:57.746
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:11:57.759
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:00.773
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:00.784
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:09.810
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:09.822
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:13.340
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:13.352
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:20.375
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:20.387
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:21.906
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:21.918
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:24.938
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:24.950
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:28.468
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:28.481
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:31.502
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:31.514
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:36.533
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:36.546
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:51.575
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:51.587
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:55.606
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:55.614
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:58.627
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:12:58.633
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:01.646
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:01.652
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:03.161
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:03.172
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:09.191
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:09.202
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:10.214
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:10.221
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:15.734
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:15.745
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:16.863
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:17.214
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:31.774
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:31.785
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:35.206
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:35.218
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:37.735
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:37.746
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:39.257
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:39.265
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:42.278
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:42.285
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:44.294
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:44.305
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:45.819
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:45.830
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:48.345
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:48.352
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:52.370
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:52.377
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:58.891
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:13:58.903
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:02.921
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:02.933
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:08.953
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:08.964
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:09.980
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:09.991
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:12.505
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:12.517
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:13.531
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:13.540
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:15.050
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:15.061
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:17.579
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:17.590
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:21.108
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:21.119
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:51.666
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:51.677
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:52.692
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:14:52.702
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:15:05.927
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-06 16:15:06.185
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
