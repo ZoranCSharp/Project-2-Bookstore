@@ -19,4 +19,6 @@
 * Then go here: https://accounts.google.com/b/0/DisplayUnlockCaptcha
 
 
-ERD - House of Leaves Bookstore
+<b>ERD - House of Leaves Bookstore</b>
+
+<img>https://github.com/ZoranKJava/Project-2-Bookstore/blob/master/ERD%20-%20House%20of%20Leaves%20Bookstore.xml</img>
