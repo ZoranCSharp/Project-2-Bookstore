@@ -20,7 +20,7 @@
 		<hr	style="position: absolute; width: 100%; height: 6px; background-color: #00ff00; z-index: -1; margin-top: -360px;" />
 		
 
-		<div class="row" style="margin-top: -320px; margin-left: -380px; margin-right: 400px" >
+		<div class="row" style="margin-top: -280px; margin-left: -400px; margin-right: 400px" >
 			<div class="col-xs-9 col-xs-offset-3">
 
 				<!-- Nav tabs -->
