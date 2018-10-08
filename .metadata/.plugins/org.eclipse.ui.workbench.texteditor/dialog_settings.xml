@@ -2,19 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="web" key="selection"/>
+		<item value="navbar-brand" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="web"/>
-			<item value="forg"/>
-			<item value="login"/>
-			<item value="left"/>
-			<item value="L"/>
-			<item value="username"/>
-			<item value="example"/>
+			<item value="navbar-brand"/>
+			<item value="1329"/>
+			<item value="navbar-header"/>
+			<item value="navbar-hjeader"/>
+			<item value="decoration"/>
+			<item value="navbar-block"/>
+			<item value="navbar-"/>
+			<item value="no decoration"/>
+			<item value="navbar-inverse"/>
+			<item value="brand"/>
+			<item value="navbar"/>
+			<item value="navba"/>
+			<item value="apple"/>
+			<item value="leaf"/>
+			<item value="img"/>
 		</list>
 		<list key="replacehistory">
 		</list>

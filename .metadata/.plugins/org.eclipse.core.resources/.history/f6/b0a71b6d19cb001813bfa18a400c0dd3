@@ -1,0 +1,5 @@
+package com.adminportal.controller;
+
+public class HomeController {
+
+}
