@@ -2,12 +2,19 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="navbar-brand" key="selection"/>
+		<item value="#2860" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="#2860"/>
+			<item value="form"/>
+			<item value="form-signin"/>
+			<item value="form-signin-heading"/>
+			<item value="fragment"/>
+			<item value="fragments"/>
+			<item value="frag "/>
 			<item value="navbar-brand"/>
 			<item value="1329"/>
 			<item value="navbar-header"/>
@@ -16,13 +23,6 @@
 			<item value="navbar-block"/>
 			<item value="navbar-"/>
 			<item value="no decoration"/>
-			<item value="navbar-inverse"/>
-			<item value="brand"/>
-			<item value="navbar"/>
-			<item value="navba"/>
-			<item value="apple"/>
-			<item value="leaf"/>
-			<item value="img"/>
 		</list>
 		<list key="replacehistory">
 		</list>
