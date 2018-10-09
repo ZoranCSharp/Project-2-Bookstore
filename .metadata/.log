@@ -1535,3 +1535,538 @@ java.util.concurrent.TimeoutException
 			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
 		ResourceDelta(/adminPortal/src)[*]
 		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:28:55.714
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:28:55.946
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:41:00.044
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				BookController.java[+]: {}
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:41:00.214
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:41:00.504
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:41:00.860
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:41:04.041
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.service.impl[*]: {CHILDREN}
+				UserServiceImpl.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:41:06.116
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal[*]: {CHILDREN}
+				AdminPortalApplication.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:41:09.054
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.config[*]: {CHILDREN}
+				SecurityConfig.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:41:13.365
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:41:13.365
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:41:15.919
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:41:15.925
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:41:17.485
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:41:17.485
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:41:19.506
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:41:19.506
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:12.927
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:12.931
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:16.510
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:16.510
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:22.701
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:22.711
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:23.731
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:23.741
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:29.397
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:29.407
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:32.997
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:33.007
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:35.077
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:35.087
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:38.677
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:38.681
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:40.757
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:40.767
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:42.817
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:42.826
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:48.997
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:49.007
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:51.054
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:51.061
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:53.607
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:53.621
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:55.157
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:55.168
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:56.187
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:43:56.197
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:44:01.847
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:44:01.861
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:44:08.517
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:44:08.527
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:44:10.087
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:44:10.097
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:44:11.117
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:44:11.127
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:44:17.697
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[*]: {CONTENT | FINE GRAINED | PRIMARY RESOURCE}
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:44:17.801
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:44:17.807
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:44:18.111
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:44:25.901
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:44:26.201
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:45:31.258
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:45:31.268
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:45:32.798
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:45:32.808
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:45:37.448
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:45:37.452
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:45:38.488
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:45:38.498
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:45:39.555
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:45:39.561
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:45:42.128
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[+]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:45:42.138
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[-]: {}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:45:57.018
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:45:57.338
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:46:18.636
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				[Working copy] BookController.java[*]: {PRIMARY RESOURCE}
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-09 23:46:19.276
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CONTENT}
+		ResourceDelta(/adminPortal/target)[*]]
