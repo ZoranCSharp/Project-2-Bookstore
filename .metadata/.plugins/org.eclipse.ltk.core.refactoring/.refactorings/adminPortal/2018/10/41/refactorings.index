@@ -4,3 +4,8 @@
 1539018825299	Delete element
 1539018945478	Rename package 'com.admiportal.service'
 1539020655940	Rename package 'com.admiportal.service.impl'
+1539045752962	Rename package 'com.adminportal.service.impl'
+1539045779104	Move compilation unit
+1539045810977	Rename package 'com.adminportal.service.impl'
+1539045844002	Copy compilation unit
+1539045850203	Delete element
