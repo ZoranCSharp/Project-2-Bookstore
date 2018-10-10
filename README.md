@@ -9,7 +9,7 @@
 * <i><b>Hibernate</b></i><i> (JBOSS Tools)</i>
 * <i><b>MySQL Workbench 8.0 CE</b></i>
 
-><b>Dont forget to put your email and emails password in application.properties! Username and password of your mySql also!!</b>
+><b>Dont forget to put your email and emails password in <i>"application.properties"</i>! Username and password of your mySql also!!</b>
 
 <i>If you have problems with smtp, just follow these 3 steps:</i>
 * Sign into the old Gmail account first ( the one you are trying to fetch mail from ) and make sure POP is enabled in settings either for ALL MAIL or only for mail that arrives from now on - depending on what you want collected
