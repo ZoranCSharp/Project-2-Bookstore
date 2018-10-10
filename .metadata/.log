@@ -2070,3 +2070,306 @@ java.util.concurrent.TimeoutException
 !MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
 	adminPortal[*]: {CONTENT}
 		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:02:03.236
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:02:03.455
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:03:52.865
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:03:53.089
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:06:16.110
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:06:16.326
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:06:27.755
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:06:27.955
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:07:56.106
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:07:56.330
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:09:03.011
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:09:03.215
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:09:26.167
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:09:26.383
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:10:35.141
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:10:35.204
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:13:45.869
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:13:46.078
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:13:50.599
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:13:50.839
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:14:49.414
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:14:49.631
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:37:02.751
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:37:02.982
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:37:56.495
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:37:56.742
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:50:57.041
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:50:57.257
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:53:55.390
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:53:55.608
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:54:26.542
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:54:26.789
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:58:02.243
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:58:02.477
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 00:58:21.783
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				[Working copy] Book.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 01:16:34.025
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 01:16:34.243
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN | CONTENT}
+		src/main/resources[*]: {CONTENT}
+			ResourceDelta(/adminPortal/src/main/resources/templates)[*]
+		ResourceDelta(/adminPortal/src)[*]
+		ResourceDelta(/adminPortal/target)[*]]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 01:18:43.215
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.controller[*]: {CHILDREN}
+				BookController.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 01:18:43.254
+!MESSAGE changeEvent = org.eclipse.jdt.core.ElementChangedEvent[source=Java Model[*]: {CHILDREN}
+	adminPortal[*]: {CHILDREN}
+		src/main/java[*]: {CHILDREN}
+			com.adminportal.domain[*]: {CHILDREN}
+				Book.java[*]: {PRIMARY WORKING COPY}]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 01:18:43.261
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.wkCFRjEW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 01:18:43.265
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.wkCFRjEW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 01:18:43.271
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2018-10-10 01:18:43.275
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.wkCFRjEW => OK
