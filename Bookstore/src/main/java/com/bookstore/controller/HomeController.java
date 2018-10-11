@@ -1,6 +1,8 @@
 package com.bookstore.controller;
 
+import java.awt.print.Book;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Locale;
 import java.util.Set;
 import java.util.UUID;
@@ -25,6 +27,7 @@ import com.bookstore.domain.User;
 import com.bookstore.domain.security.PasswordResetToken;
 import com.bookstore.domain.security.Role;
 import com.bookstore.domain.security.UserRole;
+import com.bookstore.service.BookService;
 import com.bookstore.service.UserService;
 import com.bookstore.service.impl.UserSecurityService;
 import com.bookstore.utility.MailConstructor;
@@ -44,6 +47,9 @@ public class HomeController {
 	
 	@Autowired
 	private UserSecurityService userSecurityService;
+	
+	@Autowired
+	private BookService bookService;
 
 	@RequestMapping("/")
 	public String index() {
@@ -56,6 +62,16 @@ public class HomeController {
 		return "myAccount";
 	}
 
+	
+	@RequestMapping("/bookshelf")
+	public String bookshelf(Model model) {
+		
+		List<Book> bookList = bookService.findAll();
+		model.addAttribute("bookList", bookList);
+		
+		return "bookshelf";
+	}
+	
 	@RequestMapping("/forgetPassword")
 	public String forgetPassword(HttpServletRequest request,
 			@ModelAttribute("email") String email,
@@ -173,4 +189,7 @@ public class HomeController {
 		model.addAttribute("classActiveEdit", true);
 		return "myProfile";
 	}
+	
+	
+	
 }
