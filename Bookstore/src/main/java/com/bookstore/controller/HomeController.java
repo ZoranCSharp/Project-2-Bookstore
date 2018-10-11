@@ -1,6 +1,5 @@
 package com.bookstore.controller;
 
-import java.awt.print.Book;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
@@ -23,6 +22,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.bookstore.domain.Book;
 import com.bookstore.domain.User;
 import com.bookstore.domain.security.PasswordResetToken;
 import com.bookstore.domain.security.Role;
@@ -61,38 +61,35 @@ public class HomeController {
 		model.addAttribute("classActiveLogin", true);
 		return "myAccount";
 	}
-
 	
 	@RequestMapping("/bookshelf")
 	public String bookshelf(Model model) {
-		
 		List<Book> bookList = bookService.findAll();
 		model.addAttribute("bookList", bookList);
 		
 		return "bookshelf";
 	}
-	
+
 	@RequestMapping("/forgetPassword")
-	public String forgetPassword(HttpServletRequest request,
+	public String forgetPassword(
+			HttpServletRequest request,
 			@ModelAttribute("email") String email,
-			Model model) {
+			Model model
+			) {
 
 		model.addAttribute("classActiveForgetPassword", true);
 		
 		User user = userService.findByEmail(email);
 		
-		if(user == null) {
-			
+		if (user == null) {
 			model.addAttribute("emailNotExist", true);
 			return "myAccount";
 		}
-		
 		
 		String password = SecurityUtility.randomPassword();
 		
 		String encryptedPassword = SecurityUtility.passwordEncoder().encode(password);
 		user.setPassword(encryptedPassword);
-		
 		
 		userService.save(user);
 		
@@ -105,7 +102,8 @@ public class HomeController {
 		
 		mailSender.send(newEmail);
 		
-		model.addAttribute("forgetPasswordEmailSent", true);
+		model.addAttribute("forgetPasswordEmailSent", "true");
+		
 		
 		return "myAccount";
 	}
@@ -189,7 +187,4 @@ public class HomeController {
 		model.addAttribute("classActiveEdit", true);
 		return "myProfile";
 	}
-	
-	
-	
 }
