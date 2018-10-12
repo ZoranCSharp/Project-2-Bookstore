@@ -14,22 +14,21 @@ import com.adminportal.domain.security.UserRole;
 import com.adminportal.service.UserService;
 import com.adminportal.utility.SecurityUtility;
 
+
+
 @SpringBootApplication
 public class AdminPortalApplication implements CommandLineRunner{
-
+	
 	@Autowired
 	private UserService userService;
-	
-	
+
 	public static void main(String[] args) {
 		SpringApplication.run(AdminPortalApplication.class, args);
 	}
 	
 	@Override
 	public void run(String... args) throws Exception {
-		
 		User user1 = new User();
-		
 		user1.setUsername("admin");
 		user1.setPassword(SecurityUtility.passwordEncoder().encode("admin"));
 		user1.setEmail("admin@gmail.com");

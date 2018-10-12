@@ -5,7 +5,8 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.util.List;
 
-import org.apache.catalina.servlet4preview.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -23,44 +24,40 @@ public class BookController {
 
 	@Autowired
 	private BookService bookService;
-	
-	@RequestMapping(value="/add", method=RequestMethod.GET)
+
+	@RequestMapping(value = "/add", method = RequestMethod.GET)
 	public String addBook(Model model) {
-		
 		Book book = new Book();
-		model.addAttribute("book",book);
+		model.addAttribute("book", book);
 		return "addBook";
-		
 	}
-	
-	
-	@RequestMapping(value="/add", method=RequestMethod.POST)
+
+	@RequestMapping(value = "/add", method = RequestMethod.POST)
 	public String addBookPost(@ModelAttribute("book") Book book, HttpServletRequest request) {
-		
 		bookService.save(book);
-		
+
 		MultipartFile bookImage = book.getBookImage();
-		
+
 		try {
 			byte[] bytes = bookImage.getBytes();
-			String name = book.getId()+".png";
-			BufferedOutputStream stream = new BufferedOutputStream(new FileOutputStream(new File("src/main/resources/static/image/book/" + name)));
+			String name = book.getId() + ".png";
+			BufferedOutputStream stream = new BufferedOutputStream(
+					new FileOutputStream(new File("src/main/resources/static/image/book/" + name)));
 			stream.write(bytes);
 			stream.close();
-		}catch(Exception e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
+
 		return "redirect:bookList";
-		
 	}
 	
 	@RequestMapping("/bookList")
 	public String bookList(Model model) {
-		
 		List<Book> bookList = bookService.findAll();
-		model.addAttribute("bookList", bookList);
-		
+		model.addAttribute("bookList", bookList);		
 		return "bookList";
+		
 	}
+
 }

@@ -11,19 +11,15 @@ import com.adminportal.service.BookService;
 
 @Service
 public class BookServiceImpl implements BookService{
-
+	
 	@Autowired
 	private BookRepository bookRepository;
 	
-	public Book save (Book book) {
-		
+	public Book save(Book book) {
 		return bookRepository.save(book);
 	}
 	
-	
-	public List<Book> findAll(){
-		
+	public List<Book> findAll() {
 		return (List<Book>) bookRepository.findAll();
 	}
-	
 }
