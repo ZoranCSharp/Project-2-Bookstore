@@ -35,7 +35,6 @@ import com.bookstore.service.UserService;
 import com.bookstore.service.impl.UserSecurityService;
 import com.bookstore.utility.MailConstructor;
 import com.bookstore.utility.SecurityUtility;
-import com.mysql.fabric.xmlrpc.base.Array;
 
 @Controller
 public class HomeController {
@@ -75,14 +74,13 @@ public class HomeController {
 	}
 	
 	@RequestMapping("/bookDetail")
-	public String bookDetail(@PathParam("id") Long id, Model model, Principal principal) {
-		
+	public String bookDetail(
+			@PathParam("id") Long id, Model model, Principal principal
+			) {
 		if(principal != null) {
-			
-			String username= principal.getName();
+			String username = principal.getName();
 			User user = userService.findByUsername(username);
 			model.addAttribute("user", user);
-			
 		}
 		
 		Book book = bookService.findOne(id);
@@ -95,8 +93,6 @@ public class HomeController {
 		model.addAttribute("qty", 1);
 		
 		return "bookDetail";
-		
-		
 	}
 
 	@RequestMapping("/forgetPassword")
