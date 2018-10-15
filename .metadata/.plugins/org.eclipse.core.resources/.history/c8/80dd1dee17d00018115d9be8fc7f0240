@@ -1,0 +1,120 @@
+body {
+ 
+ /* background-color: black; */
+ 
+ margin:0;
+ padding:0;
+ height:100vh;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	color: #333;
+	background-color: #333;
+}
+
+.container {
+	width: 90%;
+}
+
+.page-top {
+	margin-top: -70px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+ 
+}
+
+.box {
+	border: 1px solid red;
+}
+
+.home-headline{
+	font-family: 'Times New Roman', Times, serif;
+	font-size:24px;
+	color: #fff;
+	margin: auto;
+	text-align: center;
+	margin-top: -13px;
+}
+
+.home-headline span {
+	background-color: #231F20;
+    padding: 5px 22px;
+	
+}
+
+.section-headline {
+	font-family: 'Times New Roman', Times, serif;
+	font-size:24px;
+	color: #00ff00;
+	margin: auto;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.section-headline span {
+	background-color: #231F20;
+    padding: 5px 22px;
+    
+	
+}
+
+
+
+
+/* CSS Neon Text Effect */
+.hero-bg.neon-hero .title {
+  cursor:pointer;
+  color: rgba(255, 255, 255, 0);
+  text-shadow:  0em 0em 5em #4f74fd,
+                 0em 0em 3em #4f74fd,
+                 0em 0em 2em #4f74fd,
+                 1px 1px 5px #4f74fd,
+                 0px 0px 10px #4f74fd,
+                 0px 0px 25px #4f74fd,
+                 0px 0px 45px #4f74fd,
+                 2px 1px 0px #4f74fd,
+                -1px 0px 2px rgba(0, 0, 0, .5); 
+  
+              /* 0em 0em 3em #4f74fd,
+                 0em 0em 2em #4f74fd,
+                 1px 1px 5px #4f74fd,
+                 0px 0px 15px #4f74fd,
+                 1px 0px 0px white,
+                -1px 0px 2px rgba(0, 0, 0, .5); */
+  
+  float: left;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 28px;	
+  line-height: 20px;
+  text-decoration:none;  
+  letter-spacing: 1px;  
+  font-family: Castellar;
+  
+  
+}
+.hero-bg.neon-hero .title:hover {
+  color: white;
+  text-shadow:   0em 0em 5em white,
+                 0em 0em 3em white,
+                 0em 0em 2em white,
+                 1px 1px 5px white,
+                 0px 0px 10px white,
+                 0px 0px 25px white,
+                 0px 0px 45px white,
+                 2px 1px 0px white,
+                -1px 0px 2px rgba(0, 0, 0, .5);
+}
+
+
+
+#particles-js{
+  /* width: 100vw; */
+  height: 100%;
+  background-color: #000000;
+  margin: 0;
+}
