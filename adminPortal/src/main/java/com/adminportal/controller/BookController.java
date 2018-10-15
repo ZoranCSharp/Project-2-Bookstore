@@ -62,6 +62,15 @@ public class BookController {
 		return "bookInfo";
 	}
 	
+	@RequestMapping("/updateBook")
+	public String updateBook(@RequestParam("id") Long id, Model model) {
+		
+		Book book = bookService.findOne(id);
+		
+		model.addAttribute("book", book);
+		
+		return "updateBook";
+	}
 	
 	@RequestMapping("/bookList")
 	public String bookList(Model model) {
