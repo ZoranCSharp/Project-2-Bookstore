@@ -57,7 +57,6 @@ public class BookController {
 	
 	@RequestMapping("/bookInfo")
 	public String bookInfo(@RequestParam("id") Long id, Model model) {
-		
 		Book book = bookService.findOne(id);
 		model.addAttribute("book", book);
 		
@@ -66,9 +65,7 @@ public class BookController {
 	
 	@RequestMapping("/updateBook")
 	public String updateBook(@RequestParam("id") Long id, Model model) {
-		
 		Book book = bookService.findOne(id);
-		
 		model.addAttribute("book", book);
 		
 		return "updateBook";
@@ -76,27 +73,22 @@ public class BookController {
 	
 	@RequestMapping(value="/updateBook", method=RequestMethod.POST)
 	public String updateBookPost(@ModelAttribute("book") Book book, HttpServletRequest request) {
-		
 		bookService.save(book);
 		
 		MultipartFile bookImage = book.getBookImage();
 		
 		if(!bookImage.isEmpty()) {
 			try {
-				
 				byte[] bytes = bookImage.getBytes();
 				String name = book.getId() + ".png";
 				
-				//deleting previous picture
-				Files.delete(Paths.get("src/main/resources/static/image/book/" + name)); 
+				Files.delete(Paths.get("src/main/resources/static/image/book/"+name));
 				
-				//saving new picture
-				BufferedOutputStream stream = new BufferedOutputStream(new FileOutputStream(new File("src/main/resources/static/image/book/" + name)));
-				
+				BufferedOutputStream stream = new BufferedOutputStream(
+						new FileOutputStream(new File("src/main/resources/static/image/book/" + name)));
 				stream.write(bytes);
 				stream.close();
-			}catch(Exception e) {
-				
+			} catch (Exception e) {
 				e.printStackTrace();
 			}
 		}
