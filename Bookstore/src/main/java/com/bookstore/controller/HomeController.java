@@ -2,6 +2,7 @@ package com.bookstore.controller;
 
 import java.security.Principal;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
@@ -27,6 +28,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.bookstore.domain.Book;
 import com.bookstore.domain.User;
+import com.bookstore.domain.UserShipping;
 import com.bookstore.domain.security.PasswordResetToken;
 import com.bookstore.domain.security.Role;
 import com.bookstore.domain.security.UserRole;
@@ -35,6 +37,7 @@ import com.bookstore.service.UserService;
 import com.bookstore.service.impl.UserSecurityService;
 import com.bookstore.utility.MailConstructor;
 import com.bookstore.utility.SecurityUtility;
+import com.bookstore.utility.USConstants;
 
 @Controller
 public class HomeController {
@@ -140,18 +143,18 @@ public class HomeController {
 		
 		model.addAttribute("user",user);
 		
-		/*model.addAttribute("userPaymentList", userPaymentList);
-		model.addAttribute("userShippingList", userShippingList);
-		model.addAttribute("orderList", orderList);*/
+		model.addAttribute("userPaymentList", user.getUserPaymentList());
+		model.addAttribute("userShippingList", user.getUserShippingList());
+		/*model.addAttribute("orderList", orderList);*/
 		
 		UserShipping userShipping = new UserShipping();
 		model.addAttribute("userShipping", userShipping);
 		
-		model.addAttribute("listOfCreditCards", listOfCreditCards);
-		model.addAttribute("listOfShippingAddress", listOfShippingAddress);
+		model.addAttribute("listOfCreditCards", true);
+		model.addAttribute("listOfShippingAddress", true);
 		
 		List<String> stateList = USConstants.listOfUSStatesCode;
-		Collection.sort(stateList);
+		Collections.sort(stateList);
 		model.addAttribute("stateList", stateList);
 		model.addAttribute("classActiveEdit", true);
 		
