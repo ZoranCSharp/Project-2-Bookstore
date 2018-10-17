@@ -29,5 +29,5 @@
 
 <br>
 
-<a href="https://github.com/ZoranKJava/Project-2-Bookstore/blob/master/ERD%20-%20House%20of%20Leaves%20Bookstore.xml"><img href="*" src="https://github.com/ZoranKJava/gifs/blob/master/ERD.jpg"></a>
+<a href="https://github.com/ZoranKJava/Project-2-Bookstore/blob/master/ERD%20-%20House%20of%20Leaves%20Bookstore.xml"><img href="*" src="https://github.com/ZoranKJava/gifs/blob/master/ERD.png"></a>
 
