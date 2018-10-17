@@ -4,6 +4,7 @@
 <br>
 <br>
 
+
 <b>Software used for making this project:</b>
 * <i><b>Spring ToolSuite4</b></i>
 * <i><b>Hibernate</b></i><i> (JBOSS Tools)</i>
@@ -27,5 +28,6 @@
 <b>ERD(Entity Relationship Diagram) - House of Leaves Bookstore</b><i> (click the image)</i>
 
 <br>
+
 <a href="https://github.com/ZoranKJava/Project-2-Bookstore/blob/master/ERD%20-%20House%20of%20Leaves%20Bookstore.xml"><img href="*" src="https://github.com/ZoranKJava/gifs/blob/master/ERD.jpg"></a>
 
