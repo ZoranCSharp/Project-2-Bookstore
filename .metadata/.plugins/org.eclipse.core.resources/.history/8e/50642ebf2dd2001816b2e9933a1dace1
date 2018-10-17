@@ -1,0 +1,18 @@
+package com.bookstore.utility;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class USConstants {
+	
+	public final static String US = "US";
+	
+	public final static Map<String, String> mapOfUSStates = new HashMap<String, String>() {
+		
+		{	put("AL", "Alabama");
+		    Put("AK", "Alaska");
+		
+		}
+	};
+	
+}

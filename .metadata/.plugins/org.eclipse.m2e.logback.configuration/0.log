@@ -11519,3 +11519,275 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: end tag nam
 2018-10-16 03:38:05,971 [Worker-185: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2018-10-16 03:38:05,981 [Worker-185: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-10-16 03:38:05,981 [Worker-185: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\adminPortal\src\test\resources
+2018-10-16 22:55:06,496 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-10-16 23:04:37,737 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:04:37,757 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-16 23:04:37,793 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-16 23:04:37,825 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:04:37,825 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-16 23:08:48,643 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:08:48,646 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-16 23:08:48,646 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-16 23:08:48,654 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:08:48,654 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-16 23:09:49,636 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:09:49,636 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-16 23:09:49,637 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-16 23:09:49,642 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:09:49,642 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-16 23:15:47,494 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:15:47,495 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-16 23:15:47,496 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-16 23:15:47,501 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:15:47,507 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-16 23:18:22,319 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:18:22,326 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-16 23:18:22,332 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-16 23:18:22,342 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:18:22,342 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-16 23:19:40,039 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:19:40,039 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-16 23:19:40,045 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-16 23:19:40,055 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:19:40,060 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-16 23:20:39,520 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:20:39,526 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-16 23:20:39,533 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-16 23:20:39,542 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:20:39,542 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-16 23:20:46,688 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:20:46,688 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-10-16 23:20:46,689 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-16 23:20:46,695 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:20:46,701 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-16 23:22:29,910 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:22:29,927 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-16 23:22:29,942 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-16 23:22:29,957 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:22:29,957 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-16 23:22:42,808 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:22:42,815 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-16 23:22:42,829 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-16 23:22:42,850 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:22:42,859 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-16 23:25:54,007 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:25:54,020 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-16 23:25:54,033 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-16 23:25:54,048 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:25:54,048 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-16 23:26:14,819 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:26:14,824 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-16 23:26:14,832 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-16 23:26:14,840 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:26:14,840 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-16 23:28:39,077 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:28:39,086 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-16 23:28:39,094 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-16 23:28:39,110 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:28:39,110 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-16 23:29:51,743 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:29:51,750 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-16 23:29:51,762 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-16 23:29:51,776 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-16 23:29:51,782 [Worker-27: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 17:49:47,529 [Worker-6: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-10-17 17:52:50,784 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 17:52:50,790 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 17:52:50,864 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 17:52:50,887 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 17:52:50,887 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 17:53:41,865 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 17:53:41,884 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 17:53:41,906 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 17:53:41,922 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 17:53:41,922 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 17:55:56,813 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 17:55:56,821 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 17:55:56,833 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 17:55:56,844 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 17:55:56,845 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 17:56:07,799 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 17:56:07,804 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 17:56:07,814 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 17:56:07,825 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 17:56:07,831 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 17:56:44,533 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 17:56:44,549 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 17:56:44,562 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 17:56:44,576 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 17:56:44,576 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 17:57:31,637 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 17:57:31,643 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 17:57:31,657 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 17:57:31,672 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 17:57:31,678 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 17:57:36,501 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 17:57:36,519 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 17:57:36,537 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 17:57:36,552 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 17:57:36,552 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 17:59:32,159 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 17:59:32,167 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 17:59:32,188 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 17:59:32,199 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 17:59:32,215 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:13:44,538 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:13:44,568 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:13:44,580 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:13:44,594 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:13:44,594 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:13:55,941 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:13:55,947 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:13:55,960 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:13:55,974 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:13:55,980 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:15:33,389 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:15:33,397 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:15:33,410 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:15:33,423 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:15:33,424 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:15:46,814 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:15:46,820 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:15:46,828 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:15:46,836 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:15:46,836 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:22:06,688 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:22:06,694 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:22:06,704 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:22:06,718 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:22:06,718 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:22:41,537 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:22:41,552 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:22:41,568 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:22:41,590 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:22:41,590 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:31:50,194 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:31:50,228 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:31:50,249 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:31:50,269 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:31:50,269 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:35:02,110 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:35:02,110 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:35:02,125 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:35:02,141 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:35:02,148 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:37:48,539 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:37:48,555 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:37:48,571 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:37:48,586 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:37:48,586 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:40:43,881 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:40:43,887 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:40:43,903 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:40:43,918 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:40:43,918 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:41:09,473 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:41:09,493 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:41:09,503 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:41:09,523 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:41:09,523 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:45:52,443 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:45:52,443 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:45:52,459 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:45:52,459 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:45:52,459 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:46:22,606 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:46:22,606 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:46:22,624 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:46:22,637 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:46:22,637 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:48:44,382 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:48:44,398 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:48:44,413 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:48:44,420 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:48:44,436 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:48:46,604 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:48:46,604 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:48:46,626 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:48:46,641 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:48:46,641 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:48:57,145 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:48:57,152 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:48:57,152 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:48:57,167 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:48:57,167 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:50:13,635 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:50:13,651 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:50:13,666 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:50:13,682 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:50:13,682 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:50:50,549 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:50:50,565 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:50:50,580 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:50:50,596 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:50:50,604 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:54:27,107 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:54:27,123 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:54:27,138 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:54:27,154 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:54:27,154 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:56:35,277 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:56:35,292 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:56:35,292 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:56:35,308 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:56:35,308 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:56:57,028 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:56:57,044 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:56:57,050 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:56:57,066 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:56:57,066 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:57:53,022 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:57:53,022 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:57:53,038 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:57:53,053 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:57:53,053 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:58:26,674 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:58:26,689 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:58:26,705 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:58:26,727 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:58:26,727 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:58:44,699 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:58:44,699 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:58:44,715 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:58:44,730 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:58:44,730 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 18:59:10,327 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:59:10,327 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 18:59:10,343 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 18:59:10,350 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 18:59:10,350 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 19:02:35,303 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 19:02:35,303 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 19:02:35,319 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 19:02:35,334 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 19:02:35,350 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 19:09:52,604 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 19:09:52,635 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 19:09:52,651 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 44 resources
+2018-10-17 19:09:52,666 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 19:09:52,666 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 19:15:27,676 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 19:15:27,692 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 19:15:27,692 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 53 resources
+2018-10-17 19:15:27,707 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 19:15:27,707 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 19:17:19,142 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 19:17:19,142 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 19:17:19,157 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 53 resources
+2018-10-17 19:17:19,173 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 19:17:19,173 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 19:17:48,258 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 19:17:48,274 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 19:17:48,274 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 53 resources
+2018-10-17 19:17:48,289 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 19:17:48,305 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 19:18:51,072 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 19:18:51,103 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 19:18:51,119 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 53 resources
+2018-10-17 19:18:51,135 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 19:18:51,135 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
+2018-10-17 19:21:30,882 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 19:21:30,882 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-10-17 19:21:30,898 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 53 resources
+2018-10-17 19:21:30,898 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-10-17 19:21:30,914 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ROBOTECH\Desktop\Spring\Bookstore\src\test\resources
