@@ -157,18 +157,30 @@
 														<th>Operations</th>
 													</tr>
 												</thead>
+												
+												<!-- List of Credit Cards -->
 												<tbody>
 													<tr th:each="userPayment : ${userPaymentList}">
+														
+														<!-- radioButton for Default -->
 														<td><input type="radio" name="defaultUserPaymentId"
 															th:value="${userPayment.id}"
 															th:checked="${userPayment.defaultPayment}" /></td>
+														<!-- CreditCard Name -->
 														<td th:text="${userPayment.cardName}"></td>
-														<td><a
+														
+														<td>
+														<!-- Update -->
+														<a
 															th:href="@{/updateCreditCard(id=${userPayment.id})}"><i
-																class="fa fa-pencil"></i></a> <a
+																class="fa fa-pencil"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;
+														<!-- Remove -->		
+														<a
 															th:href="@{/removeCreditCard(id=${userPayment.id})}"><i
 																class="fa fa-times"></i></a></td>
 													</tr>
+													
+												<!-- End List of Credit Cards -->
 												</tbody>
 											</table>
 											<button class="btn btn-primary" type="submit">Save</button>
