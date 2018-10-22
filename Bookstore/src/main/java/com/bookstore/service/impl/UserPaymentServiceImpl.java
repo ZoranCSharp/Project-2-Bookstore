@@ -18,4 +18,10 @@ public class UserPaymentServiceImpl implements UserPaymentService{
 		return userPaymentRepository.findById(id).orElse(null);
 	}
 
+	
+	public void removeById(Long id) {
+		
+		userPaymentRepository.deleteById(id);
+	}
+
 }
