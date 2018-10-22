@@ -131,7 +131,7 @@
 
 					<!-- Billing information -->
 					<div class="tab-pane fade" id="tab-3"
-						th:classappend="${classActiveBilling}? 'in active'" >
+						th:classappend="${classActiveBilling}? 'in active'">
 						<div class="panel-group">
 							<div class="panel panel-default" style="border: none;">
 								<div class="panel-body"
@@ -157,13 +157,12 @@
 														<th>Operations</th>
 													</tr>
 												</thead>
-
 												<tbody>
-													<tr th:each="userPayment : ${userPaymentlist}">
+													<tr th:each="userPayment : ${userPaymentList}">
 														<td><input type="radio" name="defaultUserPaymentId"
 															th:value="${userPayment.id}"
 															th:checked="${userPayment.defaultPayment}" /></td>
-														<td th:text="{userPayment.cardName}"></td>
+														<td th:text="${userPayment.cardName}"></td>
 														<td><a
 															th:href="@{/updateCreditCard(id=${userPayment.id})}"><i
 																class="fa fa-pencil"></i></a> <a
@@ -172,7 +171,6 @@
 													</tr>
 												</tbody>
 											</table>
-
 											<button class="btn btn-primary" type="submit">Save</button>
 										</form>
 									</div>
@@ -181,13 +179,16 @@
 										<form th:action="@{addNewCreditCard}" method="post">
 											<div class="bg-info" th:if="${updateUserPaymentInfo}">User
 												info updated.</div>
+
 											<input hidden="hidden" name="id" th:value="${userPayment.id}" />
+
 											<div class="form-group">
 												<h5>* Give a name for your card:</h5>
 												<input type="text" class="form-control" id="cardName"
-													placeHolder="Card Name" th:name="cardName"
+													placeholder="Card Name" th:name="cardName"
 													required="required" th:value="${userPayment.cardName}" />
 											</div>
+
 
 											<!-- Billing Address -->
 											<hr />
@@ -198,20 +199,20 @@
 
 											<div class="form-group">
 												<label for="billingName">* Name</label> <input type="text"
-													class="form-group" id="billingName"
-													placeHolder="Receiver Name" th:name="userBillingName"
+													class="form-control" id="billingName"
+													placeholder="Receiver Name" th:name="userBillingName"
 													required="required"
 													th:value="${userBilling.userBillingName}" />
 											</div>
 
 											<div class="form-group">
 												<label for="billingAddress">* Street Address</label> <input
-													type="text" class="form-group" id="billingAddress"
-													placeHolder="Street Address 1" th:name="userBillingStreet1"
+													type="text" class="form-control" id="billingAddress"
+													placeholder="Street Address 1" th:name="userBillingStreet1"
 													required="required"
 													th:value="${userBilling.userBillingStreet1}" /> <input
-													type="text" class="form-group" id="billingAddress"
-													placeHolder="Street Address 2" th:name="userBillingStreet2"
+													type="text" class="form-control" id="billingAddress"
+													placeholder="Street Address 2" th:name="userBillingStreet2"
 													th:value="${userBilling.userBillingStreet2}" />
 											</div>
 
@@ -221,7 +222,7 @@
 													<div class="form-group">
 														<label for="billingCity">* City</label> <input type="text"
 															class="form-control" id="billingCity"
-															placeHolder="Billing city" th:name="userBillingCity"
+															placeholder="Billing city" th:name="userBillingCity"
 															required="required"
 															th:value="${userBilling.userBillingCity}" />
 													</div>
@@ -246,7 +247,7 @@
 													<div class="form-group">
 														<label for="billingZipcode">* ZipCode</label> <input
 															type="text" class="form-control" id="billingZipcode"
-															placeHolder="Billing Zipcode"
+															placeholder="Billing Zipcode"
 															th:name="userBillingZipcode" required="required"
 															th:value="${userBilling.userBillingZipcode}" />
 													</div>
@@ -267,7 +268,7 @@
 													<img src="/image/creditcard.png" class="img-responsive" /><br />
 													<div class="form-group">
 														<label for="cardType">* Select Card Type</label> <select
-															class="form-controll" id="cardType" th:name="type"
+															class="form-control" id="cardType" th:name="type"
 															th:value="${userPayment.type}">
 															<option value="visa">Visa</option>
 															<option value="mastercard">Mastercard</option>
