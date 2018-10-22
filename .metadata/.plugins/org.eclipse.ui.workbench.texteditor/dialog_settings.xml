@@ -2,12 +2,17 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="head" key="selection"/>
+		<item value="classActiveBilling" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="classActiveBilling"/>
+			<item value="classActiveShipping"/>
+			<item value="${classActiveShipping}?"/>
+			<item value="userBilling"/>
+			<item value="private String userBillingName;"/>
 			<item value="head"/>
 			<item value="icon"/>
 			<item value="desc"/>
@@ -18,13 +23,9 @@
 			<item value="findAll"/>
 			<item value="All Books"/>
 			<item value="all boks"/>
-			<item value="templa"/>
-			<item value="username"/>
-			<item value="#2860"/>
-			<item value="form"/>
-			<item value="form-signin"/>
 		</list>
 		<list key="replacehistory">
+			<item value="userShipping"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
