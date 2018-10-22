@@ -233,7 +233,7 @@ public class HomeController {
 		
 		model.addAttribute("addNewShippingAddress", true);
 		model.addAttribute("classActiveShipping", true);
-		
+		model.addAttribute("listOfCreditCards", true);
 		
 		UserShipping userShipping = new UserShipping();
 		
