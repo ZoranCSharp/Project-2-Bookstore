@@ -2,6 +2,7 @@ package com.adminportal.domain;
 
 import java.util.Collection;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import javax.persistence.CascadeType;
@@ -36,6 +37,12 @@ public class User implements UserDetails{
 	private String email;
 	private String phone;
 	private boolean enabled=true;
+	
+	@OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
+	private List<UserShipping> userShippingList;
+	
+	@OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
+	private List<UserPayment> userPaymentList; 
 	
 	@OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	@JsonIgnore
@@ -120,6 +127,19 @@ public class User implements UserDetails{
 	public boolean isEnabled() {
 		return enabled;
 	}
+	public List<UserShipping> getUserShippingList() {
+		return userShippingList;
+	}
+	public void setUserShipping(List<UserShipping> userShipping) {
+		this.userShippingList = userShipping;
+	}
+	public List<UserPayment> getUserPaymentList() {
+		return userPaymentList;
+	}
+	public void setUserPaymentList(List<UserPayment> userPaymentList) {
+		this.userPaymentList = userPaymentList;
+	}
+	
 	
 	
 }

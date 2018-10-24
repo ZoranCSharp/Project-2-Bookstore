@@ -13,6 +13,8 @@ import javax.persistence.OneToOne;
 
 import com.adminportal.domain.User;
 
+
+
 @Entity
 public class PasswordResetToken {
 
