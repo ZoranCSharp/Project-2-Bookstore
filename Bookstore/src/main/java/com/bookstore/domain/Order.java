@@ -17,7 +17,6 @@ import javax.persistence.Table;
 @Entity
 @Table(name="user_order")
 public class Order {
-
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
@@ -28,10 +27,10 @@ public class Order {
 	private String orderStatus;
 	private BigDecimal orderTotal;
 	
-	@OneToMany(mappedBy= "order", cascade = CascadeType.ALL)
-	private List<CartItem> cartITem;
+	@OneToMany(mappedBy = "order", cascade=CascadeType.ALL )
+	private List<CartItem> cartItemList;
 	
-	@OneToMany(cascade=CascadeType.ALL)
+	@OneToOne(cascade=CascadeType.ALL)
 	private ShippingAddress shippingAddress;
 	
 	@OneToOne(cascade=CascadeType.ALL)
@@ -88,12 +87,12 @@ public class Order {
 		this.orderTotal = orderTotal;
 	}
 
-	public List<CartItem> getCartITem() {
-		return cartITem;
+	public List<CartItem> getCartItemList() {
+		return cartItemList;
 	}
 
-	public void setCartITem(List<CartItem> cartITem) {
-		this.cartITem = cartITem;
+	public void setCartItemList(List<CartItem> cartItemList) {
+		this.cartItemList = cartItemList;
 	}
 
 	public ShippingAddress getShippingAddress() {
