@@ -7,7 +7,7 @@
 	<div th:replace="common/header :: navbar" />
 
 	<div class="container">
-		<div class="row" style="margin-left: 400px">
+		<div class="row" style="margin-left: 00px">
 			<div class="col-xs-8">
 				<h2 class="section-headline">
 					<span>All Books</span>
@@ -26,11 +26,11 @@
 
 		</div>
 		
-		<div class="row" style="margin-top: 100px;">
+		<div class="row" style="margin-top: -200px; margin-right: 300px;/* margin-left: 100px; */">
 			<div class="col-xs-12">
 				<div class="row">
 					<div class="col-xs-6 text-left">
-						<a class="btn btn-primary" th:href="@{/bookshelf}">Continue Shopping</a>
+						<a class="btn btn-warning" th:href="@{/bookshelf}">Continue Shopping</a>
 					</div>
 					<div class="col-xs-6 text-left">
 						<a class="btn btn-primary" th:href="@{/checkout(id=${shoppingCart.id})}">Check Out</a>
@@ -64,7 +64,7 @@
 							</div>
 							
 							<div class="col-xs-2">
-								<h5 style="color:#db3208;font-size: large;">$<span th:text="${cartItem.book.ourPrice}" th:style="${cartItem.book.inStocknumber}==? 'text-decoration: line-through' : ''"></span></h5>
+								<h5 style="color: #db3208;font-size: large;">$<span th:text="${cartItem.book.ourPrice}" th:style="${cartItem.book.inStockNumber}==0? 'text-decoration: line-through' : ''"></span></h5>
 							</div>
 							
 							<div class="col-xs-2">
