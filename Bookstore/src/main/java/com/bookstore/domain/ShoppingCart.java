@@ -16,7 +16,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 public class ShoppingCart {
-
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)

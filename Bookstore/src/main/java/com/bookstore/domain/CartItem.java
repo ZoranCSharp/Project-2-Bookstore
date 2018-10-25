@@ -23,14 +23,12 @@ public class CartItem {
 	private int qty;
 	private BigDecimal subtotal;
 	
-	
 	@OneToOne
 	private Book book;
 	
-	
 	@OneToMany(mappedBy = "cartItem")
 	@JsonIgnore
-	private List<BookToCartItem > bookToCartItem;
+	private List<BookToCartItem> bookToCartItemList;
 	
 	@ManyToOne
 	@JoinColumn(name="shopping_cart_id")
@@ -72,12 +70,12 @@ public class CartItem {
 		this.book = book;
 	}
 
-	public List<BookToCartItem> getBookToCartItem() {
-		return bookToCartItem;
+	public List<BookToCartItem> getBookToCartItemList() {
+		return bookToCartItemList;
 	}
 
-	public void setBookToCartItem(List<BookToCartItem> bookToCartItem) {
-		this.bookToCartItem = bookToCartItem;
+	public void setBookToCartItemList(List<BookToCartItem> bookToCartItemList) {
+		this.bookToCartItemList = bookToCartItemList;
 	}
 
 	public ShoppingCart getShoppingCart() {
@@ -95,7 +93,6 @@ public class CartItem {
 	public void setOrder(Order order) {
 		this.order = order;
 	}
-	
 	
 	
 }

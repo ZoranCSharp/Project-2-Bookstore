@@ -93,7 +93,6 @@ public class Payment {
 		this.holderName = holderName;
 	}
 
-	
 	public Order getOrder() {
 		return order;
 	}

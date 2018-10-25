@@ -39,19 +39,19 @@ public class User implements UserDetails{
 	private String phone;
 	private boolean enabled=true;
 	
+	@OneToOne(cascade = CascadeType.ALL, mappedBy = "user")
+	private ShoppingCart shoppingCart;
+	
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
 	private List<UserShipping> userShippingList;
 	
+	
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
-	private List<UserPayment> userPaymentList; 
+	private List<UserPayment> userPaymentList;
 	
 	@OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	@JsonIgnore
 	private Set<UserRole> userRoles = new HashSet<>();
-	
-	@OneToOne(cascade=CascadeType.ALL, mappedBy="user")
-	private ShoppingCart shoppingCart;
-	
 	
 	public Long getId() {
 		return id;
@@ -105,6 +105,28 @@ public class User implements UserDetails{
 	public void setUserRoles(Set<UserRole> userRoles) {
 		this.userRoles = userRoles;
 	}
+	
+	
+	
+	public List<UserShipping> getUserShippingList() {
+		return userShippingList;
+	}
+	public void setUserShippingList(List<UserShipping> userShippingList) {
+		this.userShippingList = userShippingList;
+	}
+	public List<UserPayment> getUserPaymentList() {
+		return userPaymentList;
+	}
+	public void setUserPaymentList(List<UserPayment> userPaymentList) {
+		this.userPaymentList = userPaymentList;
+	}
+	
+	public ShoppingCart getShoppingCart() {
+		return shoppingCart;
+	}
+	public void setShoppingCart(ShoppingCart shoppingCart) {
+		this.shoppingCart = shoppingCart;
+	}
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 		Set<GrantedAuthority> authorites = new HashSet<>();
@@ -132,31 +154,6 @@ public class User implements UserDetails{
 	public boolean isEnabled() {
 		return enabled;
 	}
-	public List<UserShipping> getUserShippingList() {
-		return userShippingList;
-	}
-	public void setUserShippingList(List<UserShipping> userShippingList) {
-		this.userShippingList = userShippingList;
-	}
-	public List<UserPayment> getUserPaymentList() {
-		return userPaymentList;
-	}
-	public void setUserPaymentList(List<UserPayment> userPaymentList) {
-		this.userPaymentList = userPaymentList;
-	}
-	public ShoppingCart getShoppingCart() {
-		return shoppingCart;
-	}
-	public void setShoppingCart(ShoppingCart shoppingCart) {
-		this.shoppingCart = shoppingCart;
-	}
-	
-	
-	
-	
-	
-	
-	
 	
 	
 }
