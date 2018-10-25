@@ -26,7 +26,7 @@
 
 		</div>
 		
-		<div class="row" style="margin-top: 10px;">
+		<div class="row" style="margin-top: 100px;">
 			<div class="col-xs-12">
 				<div class="row">
 					<div class="col-xs-6 text-left">
@@ -42,6 +42,8 @@
 					<div th:if="${emptyCart}" class="alert alert-warning">
 						Oops, your cart is empty. See if you can find what you like in the bookshelf and add them to cart.
 					</div>
+					
+					<br />
 					<div class="row">
 						<div class="col-xs-8"><h4>Products</h4></div>
 						<div class="col-xs-2"><h4>Price</h4></div>
@@ -58,7 +60,7 @@
 								</a>
 								<p th:if="${cartItem.book.inStockNumber&gt;10}" style="color:green;">In Stock</p>
 								<p th:if="${cartItem.book.inStockNumber&lt;10 and cartItem.book.inStockNumber&gt;0}" style="color:green;">Only<span th:text="${cartItem.book.InStockNumber}"></span>In Stock</p>
-								<p th:if="${cartItem.book.inStockNumber==10}" style="color:darkred;">Product Unavailable</p>
+								<p th:if="${cartItem.book.inStockNumber==0}" style="color:darkred;">Product Unavailable</p>
 							</div>
 							
 							<div class="col-xs-2">
@@ -66,7 +68,7 @@
 							</div>
 							
 							<div class="col-xs-2">
-								<input hidden="hidden" nmae="id" th:value="${cartItem.id}" />
+								<input hidden="hidden" name="id" th:value="${cartItem.id}" />
 								<input th:id="${cartItem.id}" th:name="qty" th:disabled="${cartItem.book.inStockNumber==0}" class="form-control cartItemQty" th:value="${cartItem.qty}" />
 								<button style="display:none;" th:id="'update-item-'+${cartItem.id}" type="submit" class="btn btn-warning btn-xs">Update</button>
 							</div>
@@ -76,7 +78,7 @@
 					
 					<div class="row">
 						<hr/ >
-						<h4 class="col-xs-12 text-right"><strong style="font-size: large;">Total Price (<span th:text="${#lists.size(cartItem.List)}"></span> items):</strong>
+						<h4 class="col-xs-12 text-right"><strong style="font-size: large;">Total Price (<span th:text="${#lists.size(cartItemList)}"></span> items):</strong>
 						<span style="color:#db3208;font-size: large;">$<span th:text="${shoppingCart.grandTotal}"></span></span>
 						</h4>
 					</div>
