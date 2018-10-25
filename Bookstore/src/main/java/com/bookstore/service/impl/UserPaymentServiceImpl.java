@@ -13,6 +13,7 @@ public class UserPaymentServiceImpl implements UserPaymentService{
 	@Autowired
 	private UserPaymentRepository userPaymentRepository;
 	
+	
 	public UserPayment findById(Long id) {
 		
 		return userPaymentRepository.findById(id).orElse(null);
