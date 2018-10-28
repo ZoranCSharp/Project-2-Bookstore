@@ -1,0 +1,12 @@
+package com.bookstore.domain;
+
+public class Snippet {
+	public List<BookToCartItem> getBookToCartItem() {
+			return bookToCartItem;
+		}
+	
+		public void setBookToCartItem(List<BookToCartItem> bookToCartItem) {
+			this.bookToCartItem = bookToCartItem;
+		}
+}
+

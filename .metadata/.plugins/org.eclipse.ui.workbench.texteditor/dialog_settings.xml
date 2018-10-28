@@ -2,29 +2,33 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="classActiveBilling" key="selection"/>
+		<item value="classActiveShipping" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="classActiveBilling"/>
 			<item value="classActiveShipping"/>
-			<item value="${classActiveShipping}?"/>
+			<item value="classActive"/>
+			<item value="classActiveBilling"/>
+			<item value="Billing"/>
+			<item value="userRoles"/>
 			<item value="userBilling"/>
 			<item value="private String userBillingName;"/>
-			<item value="head"/>
-			<item value="icon"/>
-			<item value="desc"/>
-			<item value="web"/>
-			<item value="bookDet"/>
-			<item value="bookDetail"/>
-			<item value="findOne"/>
-			<item value="findAll"/>
-			<item value="All Books"/>
-			<item value="all boks"/>
+			<item value="shippingAddress"/>
+			<item value="userShipping"/>
+			<item value="book_id"/>
+			<item value="userShippingService"/>
+			<item value="updateUserShipping"/>
+			<item value="setDefault"/>
+			<item value="roleRepository"/>
+			<item value="operations"/>
 		</list>
 		<list key="replacehistory">
+			<item value="BillingAddress"/>
+			<item value="ShippingAddress"/>
+			<item value="shippingAddress"/>
+			<item value="placeholder"/>
 			<item value="userShipping"/>
 		</list>
 	</section>
@@ -32,7 +36,7 @@
 		<item value="284" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="391" key="DIALOG_HEIGHT"/>
-		<item value="1238" key="DIALOG_X_ORIGIN"/>
-		<item value="166" key="DIALOG_Y_ORIGIN"/>
+		<item value="1360" key="DIALOG_X_ORIGIN"/>
+		<item value="212" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

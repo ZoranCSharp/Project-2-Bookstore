@@ -1,0 +1,27 @@
+package com.bookstore.service.impl;
+
+import java.math.BigDecimal;
+
+import org.springframework.stereotype.Service;
+
+import com.bookstore.domain.ShoppingCart;
+import com.bookstore.service.CartItemService;
+import com.bookstore.service.ShoppingCartService;
+
+@Service
+public class ShoppingCartServiceImpl implements ShoppingCartService{
+
+	
+	@Autowired
+	private CartItemService cartItemService;
+	
+	
+	public void updateShoppingCart(ShoppingCart shoppingCart) {
+		
+		BigDeciaml cartTotal = new BigDecimal(0);
+		
+		List<CartItem> cartItemList = cartItemService.findByShoppingCart(shoppingCart);
+		
+	}
+	
+}

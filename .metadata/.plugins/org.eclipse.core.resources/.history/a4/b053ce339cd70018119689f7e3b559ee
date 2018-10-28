@@ -1,0 +1,18 @@
+package com.bookstore.service.impl;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.bookstore.domain.CartItem;
+import com.bookstore.domain.ShoppingCart;
+
+@Service
+public class CartItemServiceImpl {
+
+	List<CartItem> findByShoppingCart(ShoppingCart shoppingCart){
+		
+		
+	}
+	
+}

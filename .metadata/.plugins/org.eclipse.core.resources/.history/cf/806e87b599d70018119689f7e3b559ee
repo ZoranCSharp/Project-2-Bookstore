@@ -1,0 +1,26 @@
+package com.bookstore.controller;
+
+import java.security.Principal;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.bookstore.domain.User;
+
+@Controller
+@RequestMapping("/shoppingCart")
+public class ShoppingCartController {
+
+	
+	@Autowired
+	private USerService userService;
+	
+	
+	@RequestMapping("/cart")
+	public String shoppingCart(Model model, Principal principal) {
+		
+		User user = userService.findByUsername(principal.getName());
+	}
+	
+}
