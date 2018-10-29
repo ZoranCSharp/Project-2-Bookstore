@@ -2,29 +2,32 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="classActiveShipping" key="selection"/>
+		<item value="theSameShippingAddress" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="classActiveShipping"/>
-			<item value="classActive"/>
+			<item value="theSameShippingAddress"/>
+			<item value="theSameAsShippingAddress"/>
+			<item value="checke"/>
+			<item value="/setShippingAddress(userShippingId=${userShipping.id})"/>
 			<item value="classActiveBilling"/>
-			<item value="Billing"/>
-			<item value="userRoles"/>
-			<item value="userBilling"/>
-			<item value="private String userBillingName;"/>
-			<item value="shippingAddress"/>
-			<item value="userShipping"/>
-			<item value="book_id"/>
-			<item value="userShippingService"/>
-			<item value="updateUserShipping"/>
-			<item value="setDefault"/>
-			<item value="roleRepository"/>
-			<item value="operations"/>
+			<item value="classActiv"/>
+			<item value="classActive"/>
+			<item value="classActve"/>
+			<item value="order"/>
+			<item value="next"/>
+			<item value="Total before"/>
+			<item value="Total"/>
+			<item value="total tax"/>
+			<item value="setbilling"/>
+			<item value="Shipping"/>
 		</list>
 		<list key="replacehistory">
+			<item value="setBilling"/>
+			<item value="Billing"/>
+			<item value="billingAddress"/>
 			<item value="BillingAddress"/>
 			<item value="ShippingAddress"/>
 			<item value="shippingAddress"/>

@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.apache.catalina.servlet4preview.http.HttpServletRequest"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-<fullyQualifiedTypeName name="com.adminportal.service.BookService"/>
-<fullyQualifiedTypeName name="com.adminportal.repository.BookRepository"/>
-<fullyQualifiedTypeName name="com.adminportal.domain.Book"/>
-<fullyQualifiedTypeName name="java.io.File"/>
-<fullyQualifiedTypeName name="com.mysql.fabric.xmlrpc.base.Array"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.bookstore.repository.BookRepository"/>
 <fullyQualifiedTypeName name="org.springframework.web.multipart.MultipartFile"/>
 <fullyQualifiedTypeName name="java.io.BufferedOutputStream"/>
@@ -16,16 +8,11 @@
 <fullyQualifiedTypeName name="java.nio.file.Paths"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="com.bookstore.utility.USConstants"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
 <fullyQualifiedTypeName name="com.bookstore.domain.UserBilling"/>
-<fullyQualifiedTypeName name="com.bookstore.domain.UserPayment"/>
-<fullyQualifiedTypeName name="com.bookstore.service.UserPaymentService"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
 <fullyQualifiedTypeName name="com.bookstore.repository.UserPaymentRepository"/>
-<fullyQualifiedTypeName name="com.bookstore.service.UserShippingService"/>
-<fullyQualifiedTypeName name="com.bookstore.domain.UserShipping"/>
 <fullyQualifiedTypeName name="javax.persistence.FetchType"/>
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
@@ -39,12 +26,9 @@
 <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
 <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
 <fullyQualifiedTypeName name="com.adminportal.domain.User"/>
-<fullyQualifiedTypeName name="com.bookstore.domain.User"/>
-<fullyQualifiedTypeName name="java.security.Principal"/>
 <fullyQualifiedTypeName name="javax.persistence.OneToOne"/>
 <fullyQualifiedTypeName name="com.bookstore.service.ShoppingCartService"/>
 <fullyQualifiedTypeName name="com.bookstore.service.CartItemService"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
 <fullyQualifiedTypeName name="com.bookstore.repository.ShoppingCartRepository"/>
 <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
@@ -52,12 +36,28 @@
 <fullyQualifiedTypeName name="java.math.BigDecimal"/>
 <fullyQualifiedTypeName name="com.bookstore.domain.Book"/>
 <fullyQualifiedTypeName name="com.bookstore.service.BookService"/>
-<fullyQualifiedTypeName name="com.bookstore.domain.CartItem"/>
 <fullyQualifiedTypeName name="com.bookstore.domain.BookToCartItem"/>
 <fullyQualifiedTypeName name="com.bookstore.repository.BookToCartItemRepository"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
 <fullyQualifiedTypeName name="com.bookstore.repository.CartItemRepository"/>
+<fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+<fullyQualifiedTypeName name="java.security.Principal"/>
+<fullyQualifiedTypeName name="com.bookstore.service.UserService"/>
+<fullyQualifiedTypeName name="com.bookstore.domain.User"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.bookstore.domain.CartItem"/>
+<fullyQualifiedTypeName name="com.bookstore.domain.ShippingAddress"/>
+<fullyQualifiedTypeName name="com.bookstore.domain.UserShipping"/>
+<fullyQualifiedTypeName name="com.bookstore.service.ShippingAddressService"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.bookstore.service.PaymentService"/>
+<fullyQualifiedTypeName name="org.springframework.jdbc.support.GeneratedKeyHolder"/>
+<fullyQualifiedTypeName name="com.bookstore.service.BillingAddressService"/>
+<fullyQualifiedTypeName name="com.bookstore.service.UserShippingService"/>
+<fullyQualifiedTypeName name="com.bookstore.domain.BillingAddress"/>
+<fullyQualifiedTypeName name="com.bookstore.utility.USConstants"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
-<fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
+<fullyQualifiedTypeName name="com.bookstore.domain.UserPayment"/>
+<fullyQualifiedTypeName name="com.bookstore.service.UserPaymentService"/>
 </qualifiedTypeNameHistroy>
