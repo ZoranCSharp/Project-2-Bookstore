@@ -2,6 +2,19 @@
  * 
  */
 
+
+function checkBillingAddress(){
+	
+	if($("#theSameAsShippingAddress").is(":checked")){
+		
+		$(".billingAddress").prop("disabled", true);
+	}else{
+		
+		$(".billingAddress").prop("disabled", false);
+	}
+	
+}
+
 $(document).ready(function(){
 	
 	$(".cartItemQty").on('change', function(){
@@ -11,4 +24,5 @@ $(document).ready(function(){
 		
 	});
 	
+	$("#theSameAsShippingAddress").on('click', checkBillingAddress);
 });
