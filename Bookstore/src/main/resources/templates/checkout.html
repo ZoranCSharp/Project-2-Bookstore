@@ -20,7 +20,7 @@
 		<hr	style="position: absolute; width: 100%; height: 6px; background-color: #00ff00; z-index: -1; margin-top: -360px;" />
 		
 
-		<div class="row" style="margin-top: 10px;">
+		<div class="row" style="margin-top: -250px; margin-right: 250px;">
 		
 			<form th:action="@{/checkout}" method="post">
 			
@@ -37,6 +37,12 @@
 							<div class="col-xs-7 text-left">Total before tax:</div>
 							<div class="col-xs-5 text-right">$<span th:text="${shoppingCart.grandTotal}"></span></div>
 						</div>
+						
+						<div class="row">
+							<div class="col-xs-7 text-left">Estimated tax:</div>
+							<div class="col-xs-5 text-right">$<span th:with="tax=${shoppingCart.grandTotal*0.06}" th:text="${#numbers.formatDecimal(tax, 0, 2)}"></span></div>
+						</div>
+						
 						<div class="row">
 							<div class="col-xs-7 text-left"><h3 style="color: darkred;"><strong>Order Total: </strong></h3></div>
 							<div class="col-xs-5 text-right"><h3><strong style="color:darkred;">$<span th:with="total=${shoppingCart.grandTotal+shoppingCart.grandTotal*0.06}" th:text="${#numbers.formatDecimal(total, 0, 2)}"></span></strong></h3></div>
@@ -76,7 +82,7 @@
 										<tbody>
 											<tr th:each="userShipping : ${userShippingList}">
 												<td th:text="${userShipping.userShippingStreet1}+' '+${userShipping.userShippingStreet2}+' '+${userShipping.userShippingCity}+', '+${userShipping.userShippingState}"></td>
-												<td><a th:href="${/setShippingAddress(userShippingId=${userShipping.id})}">use this address</a></td>
+												<td><a th:href="@{/setShippingAddress(userShippingId=${userShipping.id})}">use this address</a></td>
 											</tr>
 										</tbody>
 									</table>
@@ -158,7 +164,7 @@
 										<tbody>
 											<tr th:each="userPayment : ${userPaymentList}">
 												<td th:text="${userPayment.cardName}"></td>
-												<td><a th:href="${/setPaymentMethod(userPaymentId=${userPayment.id})}">use this payment</a></td>
+												<td><a th:href="@{/setPaymentMethod(userPaymentId=${userPayment.id})}">use this payment</a></td>
 											</tr>
 										</tbody>
 									</table>
@@ -181,7 +187,7 @@
 														<label for="cardHolder">* Card Holder Name</label> <input
 															type="text" class="form-control" id="cardHolder"
 															required="required" placeholder="Card Holder Name"
-															th:name="holderName" th:value="${userPayment.holderName}" />
+															th:name="holderName" th:value="${payment.holderName}" />
 													</div>
 
 													<div class="form-group">
@@ -190,7 +196,7 @@
 															<input type="tel" class="form-control" id="cardNumber"
 																required="required" placeholder="Valid Card Number"
 																th:name="cardNumber"
-																th:value="${userPayment.CardNumber}" /> <span
+																th:value="${payment.CardNumber}" /> <span
 																class="input-group-addon"><i
 																class="fa fa-credit-card" aria-hidden="true"></i>></span>
 														</div>
@@ -205,7 +211,7 @@
 														<label>* Expiration Date</label>
 														<div class="row">
 															<div class="col-xs-6">
-																<select class="form-control" name="expiryMonth" required="required" th:value="${userPayment.expiryMonth}">
+																<select class="form-control" name="expiryMonth" required="required" th:value="${payment.expiryMonth}">
 																	<option disabled="disabled">-- Month --</option>
 																	<option value="01">Jan (01)</option>
 																	<option value="01">Feb (02)</option>
@@ -223,7 +229,7 @@
 															</div>
 															
 															<div class="col-xs-6">
-																<select class="form-control" name="expiryYear" th:value="${userPayment.expiryYear}">
+																<select class="form-control" name="expiryYear" th:value="${payment.expiryYear}">
 																	<option disabled="disabled">-- Year --</option>
 																	<option value="2017">2017</option>
 																	<option value="2018">2018</option>
@@ -247,7 +253,7 @@
 												<div class="col-xs-5">
 													<div class="form-group">
 														<label for="cardCVC">CV Code</label>
-														<input id="cardCVC" type="tel" class="form-control" name="cvc" placeholder="CVC" th:name="cvc" th:value="${userPayment.cvc}" />
+														<input id="cardCVC" type="tel" class="form-control" name="cvc" placeholder="CVC" th:name="cvc" th:value="${payment.cvc}" />
 													</div>
 												</div>
 											</div>
@@ -329,7 +335,7 @@
 								<h4 class="panel-title"></h4>
 									<a data-toggle="collapse" data-parent="#accordion" href="#reviewItems">3. Review Items and Shipping</a>
 							</div>
-							<div id="reviewItem" class="panel-collapse collapse">
+							<div id="reviewItems" class="panel-collapse collapse">
 								<div class="panel-body">
 									<h4>Choose your shipping method:</h4>
 									<div class="radio">
@@ -357,7 +363,7 @@
 										
 											<hr/>
 											<div class="col-xs-2">
-												<a th:href="@{/bookDetail(id=${cartItem.id})}"><img class="img-responsive shelf-book" th:src="${adminPath}+@{/image/book/}+${cartItem.book.id}+'.png'" style="width:70px;" /></a>
+												<a th:href="@{/bookDetail(id=${cartItem.book.id})}"><img class="img-responsive shelf-book" th:src="#{adminPath}+@{/image/book/}+${cartItem.book.id}+'.png'" style="width:70px;" /></a>
 											</div>
 											
 											
@@ -383,6 +389,7 @@
 									</div>
 									
 									<hr />
+									
 						<h4 class="col-xs-12 text-right"><strong style="font-size: large;">Order Total (<span th:text="${#lists.size(cartItemList)}"></span> items):</strong>
 						<span style="color:#db3208;font-size: large;">$<span th:text="${shoppingCart.grandTotal}"></span></span>
 						</h4>
