@@ -27,6 +27,7 @@ import com.bookstore.domain.UserPayment;
 import com.bookstore.domain.UserShipping;
 import com.bookstore.service.BillingAddressService;
 import com.bookstore.service.CartItemService;
+import com.bookstore.service.OrderService;
 import com.bookstore.service.PaymentService;
 import com.bookstore.service.ShippingAddressService;
 import com.bookstore.service.ShoppingCartService;
@@ -76,6 +77,8 @@ public class CheckoutController {
 	private UserPaymentService userPaymentService;
 	
 	
+	@Autowired
+	private OrderService orderService;
 	
 	
 	
@@ -215,7 +218,7 @@ public class CheckoutController {
 		
 		User user = userService.findByUsername(principal.getName());
 		
-		Order order = orderService.createOrder(shoppingCart, shippingAddress, payment, shippingMethod, user);
+		Order order = orderService.createOrder(shoppingCart, shippingAddress, billingAddress, payment, shippingMethod, user);
 		
 		mailSender.send(mailConstructor.constructConfirmationEmail(user, order, Locale.ENGLISH));
 		
