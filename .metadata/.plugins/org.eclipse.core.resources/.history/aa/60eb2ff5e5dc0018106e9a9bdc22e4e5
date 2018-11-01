@@ -1,0 +1,28 @@
+package com.bookstore.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.bookstore.domain.BillingAddress;
+import com.bookstore.domain.Order;
+import com.bookstore.domain.Payment;
+import com.bookstore.domain.ShippingAddress;
+import com.bookstore.domain.ShoppingCart;
+import com.bookstore.domain.User;
+import com.bookstore.service.OrderService;
+
+@Service
+public class OrderServiceImpl implements OrderService {
+	
+	@Autowired
+	private OrderRepository orderRepository;
+	
+    public Order createOrder(ShoppingCart shoppingCart, ShippingAddress shippingAddress, BillingAddress billingAddress, Payment payment, String shippingMethod, User user) {
+    	
+    }
+	
+	public Order findOne(Long id) {
+		
+		
+	}
+}

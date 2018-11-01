@@ -2,35 +2,35 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="theSameShippingAddress" key="selection"/>
+		<item value="Submitted" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="submitted"/>
+			<item value="orderSubmitted"/>
+			<item value="getShippingAddressStreet1"/>
+			<item value="user info"/>
+			<item value="password"/>
+			<item value="confirm password"/>
+			<item value="authentication"/>
+			<item value="currentUser"/>
+			<item value="current"/>
+			<item value="desc"/>
+			<item value="billingAddress"/>
+			<item value="userBilling"/>
 			<item value="theSameShippingAddress"/>
 			<item value="theSameAsShippingAddress"/>
 			<item value="checke"/>
-			<item value="/setShippingAddress(userShippingId=${userShipping.id})"/>
-			<item value="classActiveBilling"/>
-			<item value="classActiv"/>
-			<item value="classActive"/>
-			<item value="classActve"/>
-			<item value="order"/>
-			<item value="next"/>
-			<item value="Total before"/>
-			<item value="Total"/>
-			<item value="total tax"/>
-			<item value="setbilling"/>
-			<item value="Shipping"/>
 		</list>
 		<list key="replacehistory">
+			<item value="shippingAddress"/>
 			<item value="setBilling"/>
 			<item value="Billing"/>
 			<item value="billingAddress"/>
 			<item value="BillingAddress"/>
 			<item value="ShippingAddress"/>
-			<item value="shippingAddress"/>
 			<item value="placeholder"/>
 			<item value="userShipping"/>
 		</list>
@@ -39,7 +39,7 @@
 		<item value="284" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="391" key="DIALOG_HEIGHT"/>
-		<item value="1360" key="DIALOG_X_ORIGIN"/>
-		<item value="212" key="DIALOG_Y_ORIGIN"/>
+		<item value="1319" key="DIALOG_X_ORIGIN"/>
+		<item value="125" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

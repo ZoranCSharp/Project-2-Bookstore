@@ -1,14 +1,16 @@
 content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="org.springframework.web.bind.annotation.RequestMethod"/><rhs name\="javax.persistence.FetchType"/><rhs name\="javax.persistence.GenerationType"/><rhs name\="javax.persistence.CascadeType"/></lhs><lhs name\="org.springframework.security.web.util.matcher.RequestMatcher"><rhs name\="org.springframework.security.web.util.matcher.AntPathRequestMatcher"/></lhs><lhs name\="org.springframework.security.crypto.password.PasswordEncoder"><rhs name\="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/></lhs><lhs name\="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"><rhs name\="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="org.springframework.mail.MailMessage"><rhs name\="org.springframework.mail.SimpleMailMessage"/></lhs><lhs name\="org.springframework.mail.SimpleMailMessage"><rhs name\="org.springframework.mail.SimpleMailMessage"/></lhs><lhs name\="java.io.FilterOutputStream"><rhs name\="java.io.BufferedOutputStream"/></lhs><lhs name\="java.io.OutputStream"><rhs name\="java.io.BufferedOutputStream"/><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.BufferedOutputStream"/><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.io.BufferedOutputStream"/><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.Flushable"><rhs name\="java.io.BufferedOutputStream"/><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.BufferedOutputStream"><rhs name\="java.io.BufferedOutputStream"/></lhs><lhs name\="com.bookstore.domain.UserBilling"><rhs name\="com.bookstore.domain.UserBilling"/></lhs><lhs name\="com.bookstore.domain.UserPayment"><rhs name\="com.bookstore.domain.UserPayment"/></lhs><lhs name\="com.bookstore.domain.UserShipping"><rhs name\="com.bookstore.domain.UserShipping"/></lhs><lhs name\="com.bookstore.domain.CartItem"><rhs name\="com.bookstore.domain.CartItem"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="javax.persistence.FetchType"/><rhs name\="javax.persistence.GenerationType"/><rhs name\="javax.persistence.CascadeType"/><rhs name\="org.springframework.web.bind.annotation.RequestMethod"/></lhs><lhs name\="org.springframework.security.web.util.matcher.RequestMatcher"><rhs name\="org.springframework.security.web.util.matcher.AntPathRequestMatcher"/></lhs><lhs name\="org.springframework.security.crypto.password.PasswordEncoder"><rhs name\="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/></lhs><lhs name\="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"><rhs name\="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="org.springframework.mail.MailMessage"><rhs name\="org.springframework.mail.SimpleMailMessage"/></lhs><lhs name\="org.springframework.mail.SimpleMailMessage"><rhs name\="org.springframework.mail.SimpleMailMessage"/></lhs><lhs name\="java.io.FilterOutputStream"><rhs name\="java.io.BufferedOutputStream"/></lhs><lhs name\="java.io.OutputStream"><rhs name\="java.io.BufferedOutputStream"/><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.BufferedOutputStream"/><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.io.BufferedOutputStream"/><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.Flushable"><rhs name\="java.io.BufferedOutputStream"/><rhs name\="java.io.FileOutputStream"/></lhs><lhs name\="java.io.BufferedOutputStream"><rhs name\="java.io.BufferedOutputStream"/></lhs><lhs name\="com.bookstore.domain.UserBilling"><rhs name\="com.bookstore.domain.UserBilling"/></lhs><lhs name\="com.bookstore.domain.UserPayment"><rhs name\="com.bookstore.domain.UserPayment"/></lhs><lhs name\="com.bookstore.domain.UserShipping"><rhs name\="com.bookstore.domain.UserShipping"/></lhs><lhs name\="com.bookstore.domain.CartItem"><rhs name\="com.bookstore.domain.CartItem"/></lhs><lhs name\="org.springframework.mail.javamail.MimeMessageHelper"><rhs name\="org.springframework.mail.javamail.MimeMessageHelper"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="javax.mail.internet.InternetAddress"/></lhs><lhs name\="javax.mail.Address"><rhs name\="javax.mail.internet.InternetAddress"/></lhs><lhs name\="javax.mail.internet.InternetAddress"><rhs name\="javax.mail.internet.InternetAddress"/></lhs></history>
 content_assist_number_of_computers=25
+content_assist_parameters_background=255,0,255
+content_assist_parameters_foreground=255,0,255
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
 eclipse.preferences.version=1
-java_comment_task_tag=192,192,192
-java_doc_default=255,0,255
+java_comment_task_tag=255,0,255
 java_multi_line_comment=255,0,255
 java_single_line_comment=255,0,255
 markOccurrences=false
+matchingBracketsColor=255,0,255
 org.eclipse.jdt.ui.formatterprofiles.version=14
 org.eclipse.jdt.ui.text.code_templates_migrated=true
 org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
@@ -16,6 +18,8 @@ org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" 
 org.eclipse.jdt.ui.text.templates_migrated=true
 org.eclipse.jdt.ui.visibility.order=B,V,R,D,
 outlinesortoption=T,SF,SI,SM,F,I,C,M,
+semanticHighlighting.annotation.color=255,0,0
+sourceHoverBackgroundColor=47,47,47
 sp_cleanup.add_default_serial_version_id=true
 sp_cleanup.add_generated_serial_version_id=false
 sp_cleanup.add_missing_annotations=true
@@ -75,6 +79,16 @@ sp_cleanup.use_this_for_non_static_field_access=false
 sp_cleanup.use_this_for_non_static_field_access_only_if_necessary=true
 sp_cleanup.use_this_for_non_static_method_access=false
 sp_cleanup.use_this_for_non_static_method_access_only_if_necessary=true
+spelling_ignore_ampersand_in_properties=true
+spelling_ignore_digits=true
+spelling_ignore_java_strings=true
+spelling_ignore_mixed=true
+spelling_ignore_non_letters=true
+spelling_ignore_sentence=true
+spelling_ignore_single_letters=true
+spelling_ignore_upper=true
+spelling_ignore_urls=true
 spelling_locale_initialized=true
+spelling_user_dictionary_encoding=
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true
