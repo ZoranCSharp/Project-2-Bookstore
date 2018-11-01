@@ -66,6 +66,11 @@ public class UserServiceImpl implements UserService{
 	}
 	
 	@Override
+	public User findById(Long id) {
+		
+		return userRepository.findById(id).orElse(null);
+	}
+	@Override
 	@Transactional
 	public User createUser(User user, Set<UserRole> userRoles){
 		User localUser = userRepository.findByUsername(user.getUsername());
