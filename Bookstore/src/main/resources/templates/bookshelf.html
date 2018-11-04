@@ -28,14 +28,14 @@
 					<h5 stryle="font-style: italic;">Ooops, no result is found. Try something else or try again later.</h5>
 				</div>
 				
-				<table border="0" id="bookList">
+				<table border="0" id="bookList" >
 				<thead><tr><th></th></tr></thead>
 				<tbody>
-				<tr class="book-item" data-th-each="book : ${bookList}">
+				<tr class="book-item" style="background-color: black;" data-th-each="book : ${bookList}">
 					<td>
 						<div th:if="${book != null}">
-							<div class="row">
-								<div class="col-xs-3" >
+							<div class="row" style="margin-top:50px; background-color: black;">
+								<div class="col-xs-3">
 									<a th:href="@{/bookDetail?id=}+${book.id}"><img class="img-responsive shelf-book" th:src="#{adminPath}+@{/image/book/}+${book.id}+'.png'"/></a>
 								</div>
 								<div class="col-xs-9">
@@ -72,5 +72,19 @@
 
 
 <div th:replace="common/header :: body-bottom-scripts"/>
+
+<script>
+	$(document).ready(function() {
+		$('#bookList').DataTable({
+			"lengthMenu":[ [5,10,15,20,-1],[5,10,15,20,"All"] ],
+			"ordering":false,
+			stateSave:true
+			});					
+		
+	$('#bookList').on('page.dt', function(){
+		$('html, body').animate({scrollTop: $('#bookList').offset().top}, 200);
+		});
+	});
+</script>
 </body>
 </html>
