@@ -103,5 +103,35 @@ public class BookController {
 		return "bookList";
 		
 	}
+	
+	@RequestMapping(value="/remove", method=RequestMethod.POST)
+	public String remove(@ModelAttribute("id") String id, Model model) {
+		
+		bookService.removeOne(Long.parseLong(id.substring(8))); //th:id="'oneBook-'+${book.id}" - oneBook has 8 letters, thats why substring, so we can get clear "id"
+		List<Book> bookList = bookService.findAll();
+		model.addAttribute("bookList", bookList);
+		
+		return "redirect:/book/bookList";
+	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
