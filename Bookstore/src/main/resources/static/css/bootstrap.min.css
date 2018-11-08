@@ -5776,8 +5776,8 @@ to {
 	display: block;
 	padding: 10px 15px;
 	margin-bottom: -1px;
-	background-color: #fff;
-	border: 1px solid #ddd
+	background-color: black;
+	border: 1px solid black
 }
 
 .list-group-item:first-child {
@@ -5792,7 +5792,7 @@ to {
 }
 
 a.list-group-item, button.list-group-item {
-	color: #555
+	color: #00ff00
 }
 
 a.list-group-item .list-group-item-heading, button.list-group-item .list-group-item-heading
