@@ -35,6 +35,5 @@
 
 ><b>Bootbox.js is a small JavaScript library which allows you to create programmatic dialog boxes using Bootstrap modals, without having to worry about creating, managing or removing any of the required DOM elements or JS event handlers.</b>
   
-<i>Here’s the simplest possible example:</i>
-
-* bootbox.alert("Hello world!");
+><i>Here’s the simplest possible example:</i>
+> * bootbox.alert("Hello world!");
